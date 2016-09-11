@@ -13,7 +13,7 @@ By modern JavaScript we mean:
 
 ## Proposed workshops
 
-__[Workshop 1](workshops/1.md):__ back to basics to cover some existing JS idioms and how modern language features can improve them. An introduction to new syntax and basic language features.
+__[Workshop 1](workshops/1):__ back to basics to cover some existing JS idioms and how modern language features can improve them. An introduction to new syntax and basic language features.
 
 ### Other topics which are big enough for entire workshops -- suggested in order:
 
