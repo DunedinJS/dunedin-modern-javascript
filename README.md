@@ -13,17 +13,7 @@ By modern JavaScript we mean:
 
 ## Proposed workshops
 
-### First workshop:
-
-Forget about browser APIs, DOM, libraries, etc... lets go back to basics to cover some existing JS idioms and how modern language features can improve them. Sort of like Douglas Crockford's _JavasScript: The Good Parts_ but updated.
-This would cover basic things which most people with exposure to other languages (especially Python, Ruby, PHP) should understand:
-* block scoping with const and let
-* function binding including fat arrow
-* template strings (interpolation)
-* enhanced object literal features
-* destructuring assignment
-* rest and spread
-* default param values
+__[Workshop 1](workshops/1.md):__ back to basics to cover some existing JS idioms and how modern language features can improve them. An introduction to new syntax and basic language features.
 
 ### Other topics which are big enough for entire workshops -- suggested in order:
 
