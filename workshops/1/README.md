@@ -26,7 +26,7 @@ Sort of like Douglas Crockford's [JavasScript: The Good Parts](http://shop.oreil
 * [Overview of ECMAScript 6 features](https://github.com/lukehoban/es6features)
 * MDN - [Arrow Functions](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 * MDN - [const](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const)
-* MDN - [let])(https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/let)
+* MDN - [let](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/let)
 * MDN - [Destructuring Assignment](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 * MDN - [Default Parameters](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Default_parameters)
 * MDN - [Template Literals](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Template_literals)
