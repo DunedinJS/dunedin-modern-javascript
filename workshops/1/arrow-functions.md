@@ -2,7 +2,7 @@
 
 ## Syntax
 
-Arrow functions are a new shorter syntax for anonymous functions.
+Arrow functions are a new shorter syntax for anonymous functions. They're much like lambdas in Python or blocks, procs, and lambdas in Ruby.
 ```javascript
 // normal anonymous function sytax
 const fn1 = function() {
