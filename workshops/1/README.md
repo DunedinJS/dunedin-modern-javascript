@@ -15,9 +15,9 @@ Sort of like Douglas Crockford's [JavasScript: The Good Parts](http://shop.oreil
 ##Content
 
 * `let` and `const`
-  * [Initializing `let` and `const`](let-and-const-initialization.md)
-  * [Assigning `let` and `const`](let-and-const-assignment.md)
-  * [Block scope](let-and-const-scope.js)
+  * [Initializing `let` and `const`](./let-and-const-initialization.md)
+  * [Assigning `let` and `const`](./let-and-const-assignment.md)
+  * [Block scope](./let-and-const-scope.js)
 * function binding including arrow functions `=>`
 * template literals (string interpolation) ``` `hello ${ world }`  ```
 * destructuring assignment `[a, b] = [1, 2]`
