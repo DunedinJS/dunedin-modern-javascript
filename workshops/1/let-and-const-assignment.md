@@ -25,3 +25,8 @@ const c = 0; // a new constant declared with const
 // attempt to re-assign the constant
 c = 1; // throws a TypeError
 ```
+
+## Resources
+
+* MDN - [const](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const)
+* MDN - [let](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/let)
