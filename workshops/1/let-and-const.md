@@ -127,7 +127,7 @@ const a = 0;
 
 // a plain block
 {
-  const a = 1; // different const with same name declared in the block scope
+  const a = 1; // different const with same name declared in the block scope (not recommended)
   const b = 2;
   console.log(a); // logs 1
   console.log(b); // logs 2
