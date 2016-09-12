@@ -1,5 +1,7 @@
 # Arrow Functions
 
+## Syntax
+
 Arrow functions are a new shorter syntax for anonymous functions.
 ```javascript
 // normal anonymous function sytax
@@ -38,25 +40,55 @@ Wrap with parentheses when returning an object literal expression.
 const fn = (x, y) => ({a: x, a: y});
 ```
 
+## Binding
+
+_If you're not familiar with how the `this` keyword works in JavaScript you're best to refer to the [MDN documentation](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/this)._
 
 Unlike normal functions, the `this` value is always bound to the `this` value of the scope in which the arrow function is defined.
 
-The arrow function:
+The arrow function below uses the `this` value of the surrounding context.
 ```javascript
-() => this.x`
+() => this.x;
 ```
-is equivellent to using the `.bind` method to bind the `this` value from the containing scope:
+An equivalent is to use the function's `.bind` method which returns a new function bound to the given value.
 ```javascript
 function() {
-  return this;
+  return this.x;
 }.bind(this);
 ```
-or storing a reference to the `this` value of the containing scope:
+Another equivalent is to store a reference to the `this` value of the containing scope.
+Most style guides use a convention of naming such variables `self` or `_this`.
 ```javascript
 const self = this;
 function() {
-  return self;
+  return self.x;
 }
+```
+
+## Usage
+
+Because arrow functions are anonymous and because of their binding they are best suited to non-method usage.
+
+For example as a callback for array iteration methods:
+```javascript
+[1, 2, 3].map(n => n * 2); // evaluates to [2, 4, 6]
+```
+
+Or where a function is given as an event handling callback:
+```javascript
+const thing = {
+  message: 'Great success!',
+  logIn1000() {
+     // the this value is the object instance here -- this === thing
+     
+     setTimeout(() => {
+       // the this value here is the same as in the method -- this === thing
+       console.log(this.message);
+     }, 1000);
+  },
+};
+
+thing.logIn1000(); // logs 'Great success!' after 1000 milliseconds
 ```
 
 ## Example
@@ -71,21 +103,6 @@ const thing = {
     };
   },
   
-  makeFnBind: function() {
-    // return an anonymous function which returns the this value of the method
-    return function() {
-      return this
-    }.bind(this);
-  },
-  
-  makeFnSelf: function() {
-    // return an anonymous function which returns the this value of the method
-    const self = this;
-    return function() {
-      return self;
-    }
-  },
-  
   makeArrowFn: function() {
     // return an anonymous function which returns the this value of the method
     return () => this;
@@ -94,32 +111,27 @@ const thing = {
 };
 
 const fn = thing.makeFn();
-const boundfn = thing.makeFnBind();
-const selfFn = this.makeFnSelf();
 const arrowFn = thing.makeArrowFn();
 
-// logs false because the fn function is not bound to thing
+// logs false because fn is not bound to thing
 console.log(fn() === thing);
 
-// all log true because the functions are bound to thing
-console.log(boundfn() === thing);
-console.log(selfFn() === thing);
+// logs true because arrowFn is bound to thing
 console.log(arrowFn() === thing);
 
-// both log true when manually bound to thing
+// both log true when fn is manually bound to thing
 console.log(fn.call(thing) === thing);
 console.log(fn.bind(thing)() === thing);
 
-// all log true even though we manually bound to something else
-// there is no way to break the binding which makes these functions safe to call from any context
-console.log(boundfn.call({}) === thing);
-console.log(boundfn.bind({})() === thing);
-console.log(selfFn.call({}) === thing);
-console.log(selfFn.bind({})() === thing);
+// both log true even though we manually bound to something else
+// there is no way to break the binding which makes arrow functions safe to call from any context
 console.log(arrowFn.call({}) === thing);
 console.log(arrowFn.bind({})() === thing);
 ```
 
 ## Resources
 
-* MDN - [Arrow Funcitons](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+* MDN - [Arrow Functions](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+* MDN = [this](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/this)
+* MDN - [Function.prototype.bind()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
+* MDN - [Function.prototype.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
