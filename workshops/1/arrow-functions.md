@@ -41,7 +41,7 @@ const fn = (x, y) => ({a: x, a: y});
 
 Unlike normal functions, the `this` value is always bound to the `this` value of the scope in which the arrow function is defined.
 
-`() => this.x` is equivellent to `function() { retrun this; }.bind(this);`
+`() => this.x` is equivellent to `function() { return this; }.bind(this);`
 
 ```javascript
 const thing = {
