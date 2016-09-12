@@ -88,3 +88,11 @@ const a = 0;
 console.log(a); // logs 0
 console.log(b); // throws ReferenceError because b is not in scope
 ```
+
+## Resources
+
+* MDN - [const](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const)
+* MDN - [let](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/let)
+* MDN - [Varible Scope and Hoisting](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variable_scope)
+* MDN - [Block Statements](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/block)
+* MDN - [Closures](https://developer.mozilla.org/en/docs/Web/JavaScript/Closures)
