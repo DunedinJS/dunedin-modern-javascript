@@ -19,6 +19,7 @@ Sort of like Douglas Crockford's [JavasScript: The Good Parts](http://shop.oreil
 * rest and spread `[x, ...a]`
 * default param values `function(x = 0) {}`
 * enhanced object literal features `{ someValue, someMethod() {}, ['key' + x]: 'value' }`
+* An overview of current browser support
 
 ## Resources:
 
