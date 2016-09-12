@@ -25,12 +25,12 @@ They can be re-assigned with a different value.
 
 ```javascript
 var v = 0; // an old-fashioned variable
-let l = 0; // a new varialbe declared with let
+let l = 0; // a variable declared with let
 
-// log the current values of our var, let, and const
+// log the current values the variables
 console.log(v, l); // logs 0, 0
 
-// re-assign the var and let variables
+// re-assign the variables
 v = 1;
 l = 1;
 
@@ -38,12 +38,25 @@ l = 1;
 console.log(v, l); // logs 1, 1
 ```
 
-Constants which are declared with `const` can not be re-assigned.
+Constants which are declared with `const` cannot be re-assigned.
 ```javascript
 const c = 0; // a new constant declared with const
 
 // attempt to re-assign the constant
 c = 1; // throws a TypeError
+```
+
+Deep values of constants can be mutated. Only re-assignment of the actual constant is restricted -- `const` does not make the value immutable.
+```javascript
+const a = [];
+a.push('something'); // adds item to the array -- not a problem
+console.log(a) // logs ['something']
+
+const b = {};
+b.foo = 'bar'; // adds property to the object -- not a problem
+console.log(b); // logs {foo: 'bar'}
+
+b = {}; // throws a TypeError
 ```
 
 ## Block scope
