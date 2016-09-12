@@ -25,63 +25,45 @@ function checkForVar() {
   console.log(`func c: ${ c }`);
 }
 
-function checkForLet() {
-  let a = 0;
+function logError(error) {
+  console.log(`${ error.name }: ${ error.message }`);
+}
+
+function checkForLetConst() {
+  const a = 0;
   let b = 0;
   
-  console.log('CHECK let');
+  console.log('CHECK let and const');
 
   if (true) {
     let c = 2; // define a new let in the block scope
+    const d = 3; // define a new const in the block scope
     b = 1; // re-assign existing let
     
     // declared in above function scope
     console.log(`block a: ${ a }`, `block b: ${ b }`);
     
     // declared in this block scope
-    console.log(`block c: ${ c }`);
+    console.log(`block c: ${ c }`, `block d: ${ d }`);
   }
 
   // declared in the function scope
   console.log(`func a: ${ a }`, `func b: ${ b }`);
   
-  // throws ReferenceError because c is declared in the if block scope and not hoisted
-  console.log(`func c: ${ c }`);
-}
-
-function checkForConst() {
-  const a = 0;
-
-  if (true) {
-    const c = 1; // define a new const in the block scope
-    
-    // declared in above function scope
-    console.log(`block a: ${ a }`); 
-    
-    // declared in this block scope
-    console.log(`block c: ${ c }`);
+  try {
+    // throws ReferenceError because c is declared in the if block scope and not hoisted
+    console.log(`func c: ${ c }`);
+  } catch(error) {
+    logError(error);
   }
-
-  // declared in the function scope
-  console.log(`func a: ${ a }`);
   
-  // throws ReferenceError because c is declared in the if block scope and not hoisted
-  console.log(`func c: ${ c }`);
+  try {
+    // throws ReferenceError because d is declared in the if block scope and not hoisted
+    console.log(`func d: ${ d }`);
+  } catch(error) {
+    logError(error);
+  }
 }
-
 
 checkForVar();
-
-try {
-  checkForLet();
-} catch(error) {
-  console.log(`${ error.name }: ${ error.message }`);
-}
-
-try {
-  checkForConst();
-} catch(error) {
-  console.log(`${ error.name }: ${ error.message }`);
-}
-
-
+checkForLetConst();
