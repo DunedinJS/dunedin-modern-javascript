@@ -66,7 +66,9 @@ _If you're not familiar with JavaScript's scope and variable hoisting behaviour 
 Unlike varibles declared with `var` which are function-scoped, those declared with `let` or `const` are block-scoped.
 
 > The lack of block scope has been long seen as one of the 'bad parts' of JavaScript.
-> It was particularily troublesome when using `for` or `while` loops to iterate over collections as any varaibles scoped not to the block to the enclosing function.
+> This often caught out programmers with experience in other C-like languages who were tricked by JavaScript's block syntax.
+>
+> It can be particularily troublesome when using `for` or `while` loops to iterate over collections as any variables are scoped not to the block but to the enclosing function.
 
 First, here's an example of existing scope bahavior with `var`:
 ```javascript
