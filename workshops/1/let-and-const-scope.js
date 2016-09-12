@@ -1,12 +1,13 @@
 function checkForVar() {
+  // declare vars in the function scope
   var a = 0;
   var b = 0;
   
   console.log('CHECK var');
 
   if (true) {
-    // define a new var in the block scope
-    // the var is 'hoisted' to the above function scope
+    // declare a new var in the block scope
+    // the var declaration is 'hoisted' to the above function scope
     var c = 2; 
     
     b = 1; // re-assign existing var
@@ -30,14 +31,15 @@ function logError(error) {
 }
 
 function checkForLetConst() {
+  // declare a const and a let in the function scope
   const a = 0;
   let b = 0;
   
   console.log('CHECK let and const');
 
   if (true) {
-    let c = 2; // define a new let in the block scope
-    const d = 3; // define a new const in the block scope
+    let c = 2; // declare a new let in the block scope
+    const d = 3; // declare a new const in the block scope
     b = 1; // re-assign existing let
     
     // declared in above function scope
