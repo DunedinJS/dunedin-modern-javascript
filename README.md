@@ -1,10 +1,12 @@
 # Dunedin Modern Javascript
 
-A series of tutorials/workshops/hacks for learning modern JavaScript
+A series of tutorials/workshops/hack-sessions for learning modern JavaScript.
 
-Interactive workshops are best because it's so easy for people to open up their browser console, Node.js, jsbin.com, or similar.
+This is intended to cater to a broad range of experience levels. Some exposure to old-fashioned JavaScript or intepreted programming languages such as Python, Ruby, or PHP is a good base entry level.
 
-By modern JavaScript we mean:
+Workshops contain a targetted set of theory but are best delivered interactively. It's very easy for people to open up their browser console, Node.js, jsbin.com, or similar to follow along and test out code samples.
+
+__By modern JavaScript we mean:__
 
 * features from the ES5 spec which recently came into mainstream use (usually since IE8 support was dropped)
 * features from the ES6/ES2015 and ES7/ES2016 specs -- most of these are supported by current browsers
