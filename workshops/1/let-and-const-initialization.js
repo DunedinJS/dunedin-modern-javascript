@@ -1,6 +1,9 @@
-// fine to declare var and let without initializing values
-var v2;
-let l2;
+// as in existing JavaScript it's fine to declare a variable without initializing its value
+var v;
 
-// throws a SyntaxError because const must be initialized on declaration
-const c2;
+// the same applies for varialbes declared with let
+let l;
+
+// but const must be initialized on declaration
+const c1 = true; // no problem
+const c2; // throws a SyntaxError
