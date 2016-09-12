@@ -1,7 +1,7 @@
-// as in existing JavaScript it's fine to declare a variable without initializing its value
+// in existing JavaScript it's fine to declare a variable without initializing its value
 var v;
 
-// the same applies for varialbes declared with let
+// the same applies for variables declared with let
 let l;
 
 // but const must be initialized on declaration
