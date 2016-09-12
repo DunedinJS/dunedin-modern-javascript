@@ -41,17 +41,33 @@ const fn = (x, y) => ({a: x, a: y});
 
 Unlike normal functions, the `this` value is always bound to the `this` value of the scope in which the arrow function is defined.
 
-`() => this.x` is equivellent to `function() { return this; }.bind(this);`
+The arrow function:
+```javascript
+() => this.x`
+```
+is equivellent to using the `.bind` method to bind the `this` value from the containing scope:
+```javascript
+function() {
+  return this;
+}.bind(this);
+```
+or storing a reference to the `this` value of the containing scope:
+```javascript
+const self = this;
+function() {
+  return self;
+}
+```
+
+## Example
 
 ```javascript
 const thing = {
   
-  x: 'hello',
-  
   makeFn: function() {
     // return an anonymous function which returns its own bound this value -- not the this value of the method
     return function() {
-      return this
+      return this;
     };
   },
   
@@ -60,6 +76,14 @@ const thing = {
     return function() {
       return this
     }.bind(this);
+  },
+  
+  makeFnSelf: function() {
+    // return an anonymous function which returns the this value of the method
+    const self = this;
+    return function() {
+      return self;
+    }
   },
   
   makeArrowFn: function() {
@@ -71,15 +95,15 @@ const thing = {
 
 const fn = thing.makeFn();
 const boundfn = thing.makeFnBind();
+const selfFn = this.makeFnSelf();
 const arrowFn = thing.makeArrowFn();
 
 // logs false because the fn function is not bound to thing
 console.log(fn() === thing);
 
-// logs true because the boundfn function is bound to thing
+// all log true because the functions are bound to thing
 console.log(boundfn() === thing);
-
-// logs true because the arrowFn function is bound to thing
+console.log(selfFn() === thing);
 console.log(arrowFn() === thing);
 
 // both log true when manually bound to thing
@@ -87,9 +111,11 @@ console.log(fn.call(thing) === thing);
 console.log(fn.bind(thing)() === thing);
 
 // all log true even though we manually bound to something else
-// there is no way to break the binding which 
+// there is no way to break the binding which makes these functions safe to call from any context
 console.log(boundfn.call({}) === thing);
 console.log(boundfn.bind({})() === thing);
+console.log(selfFn.call({}) === thing);
+console.log(selfFn.bind({})() === thing);
 console.log(arrowFn.call({}) === thing);
 console.log(arrowFn.bind({})() === thing);
 ```
