@@ -61,6 +61,8 @@ b = {}; // throws a TypeError
 
 ## Block scope
 
+_If you're not familiar with JavaScript's scope and variable hoisting behaviour it's worth refering to the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variable_scope)_
+
 Unlike varibles declared with `var` which are function-scoped, those declared with `let` or `const` are block-scoped.
 
 > The lack of block scope has been long seen as one of the 'bad parts' of JavaScript.
