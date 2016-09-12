@@ -28,14 +28,14 @@ var v = 0; // an old-fashioned variable
 let l = 0; // a new varialbe declared with let
 
 // log the current values of our var, let, and const
-console.log(`var: ${ v }`, `let: ${ l }`, `const: ${ c }`);
+console.log(v, l); // logs 0, 0
 
 // re-assign the var and let variables
 v = 1;
 l = 1;
 
 // log the new values of the variables
-console.log(`var: ${ v }`, `let: ${ l }`);
+console.log(v, l); // logs 1, 1
 ```
 
 Constants which are declared with `const` can not be re-assigned.
