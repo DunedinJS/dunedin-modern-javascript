@@ -7,7 +7,7 @@ It was particularily troublesome when using `for` or `while` loops to iterate ov
 
 First, here's an example of existing scope bahavoir with `var`:
 ```javascript
-var a = 0; // in the global or module scope depending on the environment
+var a = 0; // declared in the global or module scope depending on the environment
 
 function someCoolFn() {
   // the function has its own scope.
@@ -27,6 +27,8 @@ function someCoolFn() {
   console.log(c); // logs 2 because c has been hoisted into the function scope
 }
 
+someCoolFn();
+
 console.log(a); // logs 0
 
 // both throw ReferenceError because b and c are not declared in scope
@@ -34,11 +36,11 @@ console.log(b);
 console.log(c);
 ```
 
-Funtion-scope applies for variables declared with `let` and constants declared with `const`.
+Block-scope applies for variables declared with `let` and constants declared with `const`.
 Here's a version modified to use `let` and `const`:
 
 ```javascript
-let a = 0; // in the global or module scope depending on the environment
+let a = 0; // declared in the global or module scope depending on the environment
 
 function someCoolFn() {
   // the function has its own scope
@@ -57,6 +59,8 @@ function someCoolFn() {
 
   console.log(c); // throws a ReferenceError because c is not declared in the functions scope
 }
+
+someCoolFn();
 
 console.log(a); // logs 0
 
