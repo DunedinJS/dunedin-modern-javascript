@@ -14,7 +14,10 @@ Sort of like Douglas Crockford's [JavasScript: The Good Parts](http://shop.oreil
 
 ##Content
 
-* block scoping with `const` and `let`
+* `let` and `const`
+  * [Initializing `let` and `const`](let-and-const-initialization.js)
+  * [Assigning `let` and `const`](let-and-const-assignment.js)
+  * [Block scope](let-and-const-scope.js)
 * function binding including arrow functions `=>`
 * template literals (string interpolation) ``` `hello ${ world }`  ```
 * destructuring assignment `[a, b] = [1, 2]`
