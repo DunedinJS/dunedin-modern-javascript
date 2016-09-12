@@ -15,3 +15,8 @@ But `const` must be initialized on declaration
 const c1 = true; // no problem
 const c2; // throws a SyntaxError
 ```
+
+## Resources
+
+* MDN - [const](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const)
+* MDN - [let](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/let)
