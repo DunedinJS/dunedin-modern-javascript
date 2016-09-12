@@ -47,4 +47,6 @@ _*Unit testing is something which is very unstandardised at this stage -- sugges
 
 ## Contributing:
 
-We're looking for any suggestions on what people of all experience levels would like to learn about. Feel free to contact me directly at matt@mnorrish.co.nz or open a pull request with changes.
+We're looking for any suggestions of what you, the JavaScript community would like to learn about or present. All levels of experience from 'never touched it' to 'guru' are valuable.
+
+Feel free to contact me directly at matt@mnorrish.co.nz or open a pull request with changes. If you would like to present a topic, please open a pull request with your suggestion. Refer to Workshop 1 as an example format.
