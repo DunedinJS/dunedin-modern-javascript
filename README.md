@@ -21,29 +21,29 @@ __[Workshop 1](workshops/1/overview.md):__ back to basics to cover some existing
 
 1. Native Array and Object methods
 2. Class and module syntax -- also cover how no browsers can currently load modules
-3. High-level overview of Node.js, NPM, and CommonJS modules
-4. Webpack part 1 -- dev server, module bundling and using loaders (examples with ESLint, Babel, JSX, andTypeScript would be good)
+3. High-level overview of [Node.js](https://nodejs.org/), NPM, and CommonJS modules
+4. [Webpack](https://webpack.github.io/) part 1 -- dev server, module bundling and using loaders (examples with [ESLint](http://eslint.org/), [Babel](https://babeljs.io/), [JSX](https://facebook.github.io/jsx/), and [TypeScript](https://www.typescriptlang.org/) would be good)
 5. Webpack part 2 -- versioning, loading non-JS assets, using plugins, shimming awful old libraries :(
-5. Unit testing with Jest*
+5. Unit testing with [Jest](https://facebook.github.io/jest/)*
 
 _*Unit testing is something which is very unstandardised at this stage -- suggestions on this are welcome_
 
 ### Also some niche topics which are still entry-level:
 
-* Lodash and functional composition with Lodash/FP
-* Type annotations with Flow
-* End-to-end testing with WebDriver.io (Selenium)
-* Virtual DOM in React and other implementations -- what happens when we compile that crazy JSX source!
-* Redux and immutable data structures -- how to use them for application state -- standalone then with React
+* [Lodash](https://lodash.com/) and functional composition with Lodash/FP
+* Type annotations with [Flow](https://flowtype.org/)
+* End-to-end testing with [WebDriver.io](http://webdriver.io/) (Selenium)
+* Virtual DOM in [React](https://facebook.github.io/react/) and other implementations -- what happens when we compile that crazy JSX source!
+* [Redux](http://redux.js.org/) and immutable data structures -- how to use them for application state -- standalone then with React
 
 ### And some topics which may be more niche or only relevant to those with extensive JS knowledge:
 
-* CSS modules in React
+* [CSS modules](https://github.com/css-modules/css-modules) in React
 * Webpack part 3 -- hot module reloading with React, time-travel
-* React Native -- learn once, write everywhere for web, iOS, and Android
-* Future module loading -- JSPM, SystemJS, HTTP/2 (maybe also Webpack 2)
+* [React Native](https://facebook.github.io/react-native/) -- learn once, write everywhere for web, iOS, and Android
+* Future module loading -- [JSPM](http://jspm.io/), [SystemJS](https://github.com/systemjs/systemjs), HTTP/2 (maybe also Webpack 2)
 * Iterators, generators, symbols, promises
-* Decorators and an introduction to Angular 2 -- Using draft language features now!
+* Decorators and an introduction to [Angular 2](https://angular.io/) -- Using draft language features now!
 * Proxy and Reflect
 * New data structures -- Map, Set, WeakMap, WeakSet
 
