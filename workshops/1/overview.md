@@ -10,9 +10,9 @@ Anyone with experience in old-fashioned JavaScript (ES3/ES5) or familiar with an
 
 JavaScript has a reputation for being a 'messy' language so let's forget about browser APIs, DOM, libraries, etc... and go back to basics to uncover its elegant base.
 
-The aim is to give you enough knowledge of new syntax to understand what's going so that you can participate in further workshops.
+The aim od this workshop is to give you enough knowledge of new syntax to understand what's going so that you can participate in further workshops.
 
-In this workshop we also cover some existing JS idioms and how modern language features can improve them.
+We also cover some existing JS idioms and how modern language features can improve them.
 Sort of like Douglas Crockford's [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do) but updated. Although the book is now dated it is still a very valuable read.
 
 ##Content
