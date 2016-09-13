@@ -16,12 +16,12 @@ Sort of like Douglas Crockford's [JavasScript: The Good Parts](http://shop.oreil
 
 * [`let`, `const`, and block scope](let-and-const.md)
 * [Arrow functions and their binding](arrow-functions.md)
-* template literals (string interpolation) ``` `hello ${ world }`  ```
-* destructuring assignment `[a, b] = [1, 2]`
-* rest and spread `[x, ...a]`
-* default param values `function(x = 0) {}`
-* enhanced object literal features `{ someValue, someMethod() {}, ['key' + x]: 'value' }`
-* An overview of current browser support
+* (Coming soon) template literals (string interpolation) ``` `hello ${ world }`  ```
+* (Coming soon) destructuring assignment `[a, b] = [1, 2]`
+* (Coming soon) rest and spread `[x, ...a]`
+* (Coming soon) default param values `function(x = 0) {}`
+* (Coming soon) enhanced object literal features `{ someValue, someMethod() {}, ['key' + x]: 'value' }`
+* (Coming soon) An overview of current browser support
 
 ## Resources
 
