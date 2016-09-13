@@ -52,3 +52,5 @@ _*Unit testing is something which is very unstandardised at this stage -- sugges
 We're looking for any suggestions of what you, the JavaScript community would like to learn about or present. All levels of experience from 'never touched it' to 'guru' are valuable.
 
 Feel free to contact me directly at matt@mnorrish.co.nz or open a pull request with changes. If you would like to present a topic, please open a pull request with your suggestion. Refer to Workshop 1 as an example format.
+
+Also we are reaching out to JavaScript New Zealand for support and advice. Join the [#dunedin-js](javascriptnewzealand.slack.com/messages/dunedin-js) channel on Slack.
