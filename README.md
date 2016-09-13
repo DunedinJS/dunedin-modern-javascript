@@ -20,11 +20,11 @@ __[Workshop 1](workshops/1/overview.md):__ back to basics to cover some existing
 ### Other topics which are big enough for entire workshops -- suggested in order:
 
 1. Native Array and Object methods
-2. Class and module syntax -- also cover how no browsers can currently load modules
-3. High-level overview of [Node.js](https://nodejs.org/), NPM, and CommonJS modules
-4. [Webpack](https://webpack.github.io/) part 1 -- dev server, module bundling and using loaders (examples with [ESLint](http://eslint.org/), [Babel](https://babeljs.io/), [JSX](https://facebook.github.io/jsx/), and [TypeScript](https://www.typescriptlang.org/) would be good)
-5. Webpack part 2 -- versioning, loading non-JS assets, using plugins, shimming awful old libraries :(
-5. Unit testing with [Jest](https://facebook.github.io/jest/)*
+1. Class and module syntax -- also cover how no browsers can currently load modules
+1. High-level overview of [Node.js](https://nodejs.org/), NPM, and CommonJS modules
+1. [Webpack](https://webpack.github.io/) part 1 -- dev server, module bundling and using loaders (examples with [ESLint](http://eslint.org/), [Babel](https://babeljs.io/), [JSX](https://facebook.github.io/jsx/), and [TypeScript](https://www.typescriptlang.org/) would be good)
+1. Webpack part 2 -- versioning, loading non-JS assets, using plugins, shimming awful old libraries :(
+1. Unit testing with [Jest](https://facebook.github.io/jest/)*
 
 _*Unit testing is something which is very unstandardised at this stage -- suggestions on this are welcome_
 
