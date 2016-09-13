@@ -28,7 +28,7 @@ Sort of like Douglas Crockford's [JavaScript: The Good Parts](http://shop.oreill
 
 ## Resources
 
-* Douglas Crockford's [JavasScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do)
+* Douglas Crockford's [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do)
 * [Overview of ECMAScript 6 features](https://github.com/lukehoban/es6features)
 * MDN - [Destructuring Assignment](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 * MDN - [Default Parameters](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Default_parameters)
