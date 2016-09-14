@@ -2,7 +2,7 @@
 
 A series of tutorials/workshops/hack-sessions for learning modern JavaScript.
 
-This is intended to cater to a broad range of experience levels. Some exposure to old-fashioned JavaScript or intepreted programming languages such as Python, Ruby, or PHP is a good base entry level.
+This is intended to cater to a broad range of experience levels. Some exposure to old-fashioned JavaScript or mainstream intepreted programming languages such as Python, Ruby, or PHP is a good base entry level.
 
 Workshops contain a targetted set of theory but are best delivered interactively. It's very easy for people to open up their browser console, Node.js, jsbin.com, or similar to follow along and test out code samples.
 
