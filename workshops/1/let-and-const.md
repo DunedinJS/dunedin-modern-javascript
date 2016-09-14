@@ -1,13 +1,15 @@
 # `let` and `const`
 
+The term _reference_ is used throughout this page instead of _variable_ to encompass both variables and constants.
+
 ## Initializing
 
-In existing JavaScript it's fine to declare a variable with `var` without initializing its value
+In existing JavaScript it's fine to declare a reference with `var` without initializing its value
 ```javascript
 var v;
 ```
 
-The same applies for variables declared with `let`
+The same applies for references declared with `let`
 ```javascript
 let l;
 ```
@@ -20,21 +22,21 @@ const c2; // throws a SyntaxError
 
 ## Assignmnent
 
-In terms of assignment, variables declared with `let` behave like those declared with `var`.
+In terms of assignment, references declared with `let` behave like those declared with `var`.
 They can be re-assigned with a different value.
 
 ```javascript
-var v = 0; // an old-fashioned variable
-let l = 0; // a variable declared with let
+var v = 0; // an old-fashioned var reference
+let l = 0; // a reference declared with let
 
-// log the current values the variables
+// log the current values the references
 console.log(v, l); // logs 0, 0
 
-// re-assign the variables
+// re-assign the references
 v = 1;
 l = 1;
 
-// log the new values of the variables
+// log the new values of the references
 console.log(v, l); // logs 1, 1
 ```
 
@@ -61,14 +63,14 @@ b = {}; // throws a TypeError
 
 ## Block scope
 
-_If you're not familiar with JavaScript's scope and variable hoisting behaviour it's worth refering to the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variable_scope)_
+_If you're not familiar with JavaScript's scope and hoisting behaviour it's worth refering to the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variable_scope)_
 
 Unlike varibles declared with `var` which are function-scoped, those declared with `let` or `const` are block-scoped.
 
 > The lack of block scope has been long seen as one of the 'bad parts' of JavaScript.
 > This often caught out programmers with experience in other C-like languages who were tricked by JavaScript's block syntax.
 >
-> It can be particularily troublesome when using `for` or `while` loops to iterate over collections as any variables are scoped not to the block but to the enclosing function.
+> It can be particularily troublesome when using `for` or `while` loops to iterate over collections as any references are scoped not to the block but to the enclosing function.
 
 First, here's an example of existing scope bahavior with `var`:
 ```javascript
@@ -76,10 +78,10 @@ var a = 0; // declared in the global or module scope depending on the environmen
 
 function someCoolFn() {
   // the function has its own scope.
-  // variables declared inside the function are not accessible outside the function
+  // references declared inside the function are not accessible outside the function
   var b = 1;
   
-  // but we can access variables in any scopes above this function
+  // but we can access references in any scopes above this function
   console.log(a); // logs 0
   
   if (true) {
@@ -101,7 +103,7 @@ console.log(b);
 console.log(c);
 ```
 
-Block-scope applies for variables declared with `let` and constants declared with `const`.
+Block-scope applies for references declared with `let` and constants declared with `const`.
 Here's a version modified to use `let` and `const`:
 
 ```javascript
@@ -109,10 +111,10 @@ let a = 0; // declared in the global or module scope depending on the environmen
 
 function someCoolFn() {
   // the function has its own scope
-  // variables declared inside the function are not accessible outside the function
+  // references declared inside the function are not accessible outside the function
   let b = 1;
   
-  // but we can access variables in any scopes above this function
+  // but we can access references in any scopes above this function
   console.log(a); // logs 0
   
   if (true) {
@@ -154,10 +156,15 @@ console.log(a); // logs 0
 console.log(b); // throws ReferenceError because b is not in scope
 ```
 
+## Usage
+
+It's generally accepted when writing modern JavaScript that `const` is preferred wherever possible.
+Use `let` when there is a need to re-assign a reference and avoid `var` completely.
+
 ## Resources
 
 * MDN - [const](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const)
 * MDN - [let](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/let)
-* MDN - [Varible Scope and Hoisting](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variable_scope)
+* MDN - [Variable Scope and Hoisting](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variable_scope)
 * MDN - [Block Statements](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/block)
 * MDN - [Closures](https://developer.mozilla.org/en/docs/Web/JavaScript/Closures)
