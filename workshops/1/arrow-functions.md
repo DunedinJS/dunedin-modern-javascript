@@ -35,7 +35,7 @@ const fn1 = x => x + 1;
 const fn2 = (x, y) => x + y;
 ```
 
-Wrap with parentheses when returning an object literal expression. 
+Wrap with parentheses when returning an object literal expression.
 ```javascript
 const fn = (x, y) => ({a: x, a: y});
 ```
@@ -80,7 +80,7 @@ const thing = {
   message: 'Great success!',
   logIn1000() {
      // the this value is the object instance here -- this === thing
-     
+
      setTimeout(() => {
        // the this value here is the same as in the method -- this === thing
        console.log(this.message);
@@ -91,23 +91,26 @@ const thing = {
 thing.logIn1000(); // logs 'Great success!' after 1000 milliseconds
 ```
 
+Arrow functions are not suitable when the `this` context of the call needs to be used instead of the `this` context of where the function is defined.
+In that case conventional functions need to be used.
+
 ## Example
 
 ```javascript
 const thing = {
-  
+
   makeFn: function() {
     // return an anonymous function which returns its own bound this value -- not the this value of the method
     return function() {
       return this;
     };
   },
-  
+
   makeArrowFn: function() {
     // return an anonymous function which returns the this value of the method
     return () => this;
   },
-  
+
 };
 
 const fn = thing.makeFn();
