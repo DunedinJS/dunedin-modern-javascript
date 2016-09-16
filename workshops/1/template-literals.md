@@ -56,15 +56,15 @@ The following are also equal. Note the treatment of leading whitespace and line 
 </div>`
 ```
 
-Leading whitespace in template strings is relative to the file rather the indent level -- because of course whitespace is not significant in JavaScript.
+Leading whitespace in template strings is relative to the file rather than the indent level -- because of course whitespace is not significant in JavaScript.
 
 ```javascript
 getString() {
   return `line one
-  line two`;
+    line two`;
 }
 
-console.log(getString()); // logs a string ike 'line one\n  line two'
+console.log(getString()); // logs a like 'line one\n    line two'
 ```
 
 ## Tagged template literals
