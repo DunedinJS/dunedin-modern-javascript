@@ -29,23 +29,27 @@ __[Workshop 1](workshops/1/overview.md):__ back to basics to cover some existing
 _*Unit testing is something which is very unstandardised at this stage -- suggestions on this are welcome_
 
 ### Also some niche topics which are still entry-level:
-
-* [Lodash](https://lodash.com/) and functional composition with Lodash/FP
 * Type annotations with [Flow](https://flowtype.org/)
+* Iterators, generators, symbols
+* Promises and a glimpse at `async` and `await`
+* [Lodash](https://lodash.com/) and functional composition with Lodash/FP
 * End-to-end testing with [WebDriver.io](http://webdriver.io/) (Selenium)
 * Virtual DOM in [React](https://facebook.github.io/react/) and other implementations -- what happens when we compile that crazy JSX source!
 * [Redux](http://redux.js.org/) and immutable data structures -- how to use them for application state -- standalone then with React
 
-### And some topics which may be more niche or only relevant to those with extensive JS knowledge:
+### And some topics which may be more niche or only suitable for those with extensive JS knowledge:
 
+* [TypeScript](https://www.typescriptlang.org/)
+* [RxJS](https://github.com/Reactive-Extensions/RxJS)
 * [CSS modules](https://github.com/css-modules/css-modules) in React
 * Webpack part 3 -- hot module reloading with React, time-travel
 * [React Native](https://facebook.github.io/react-native/) -- learn once, write everywhere for web, iOS, and Android
 * Future module loading -- [JSPM](http://jspm.io/), [SystemJS](https://github.com/systemjs/systemjs), HTTP/2 (maybe also Webpack 2)
-* Iterators, generators, symbols, promises
 * Decorators and an introduction to [Angular 2](https://angular.io/) -- Using draft language features now!
+* Angular 2 dependency injection
 * Proxy and Reflect
 * New data structures -- Map, Set, WeakMap, WeakSet
+* FireBase
 
 ## Contributing:
 
