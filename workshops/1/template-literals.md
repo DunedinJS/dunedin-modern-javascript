@@ -38,7 +38,7 @@ The following are equal
 line two`
 ```
 
-The following are also equal but not the treatment of leading whitespace and line breaks.
+The following are also equal. Note the treatment of leading whitespace and line breaks.
 ```javascript
 '<div>\n' +
 '  <p>Hello</p>\n' +
