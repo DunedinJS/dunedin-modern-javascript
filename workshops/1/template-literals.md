@@ -40,14 +40,17 @@ line two`
 
 The following are also equal. Note the treatment of leading whitespace and line breaks.
 ```javascript
+// concatenation
 '<div>\n' +
 '  <p>Hello</p>\n' +
 '</div>'
 
+// end-of-line escape
 '<div>\n\
   <p>Hello</p>\n\
 </div>'
 
+// template string
 `<div>
   <p>Hello</p>
 </div>`
