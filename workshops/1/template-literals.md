@@ -28,7 +28,7 @@ Only the backtick character and the `${` combination used to start interpolation
 
 ## Multiline
 
-Temaplate literals can be seamlessly split across lines. Line breaks form line breaks in the resulting string.
+Template literals can be seamlessly split across lines. Line breaks form line breaks in the resulting string.
 
 The following are equal
 ```javascript
