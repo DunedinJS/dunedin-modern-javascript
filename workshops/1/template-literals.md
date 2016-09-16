@@ -71,9 +71,9 @@ console.log(getString()); // logs a like 'line one\n    line two'
 
 Template literals can be 'tagged' to modify output. A tag is a function which accepts an array of string segments then each interpolation value.
 
-Tags are useful for encoding of excaping values and whitespace control among others.
+Among other uses, tags are useful for encoding of escaping values and whitespace control.
 
-> There are libraries of utility tags to cover common use cases such as HTML encoding and indent control. [declandewet/common-tags](https://github.com/declandewet/common-tags) is a great example.
+> There are libraries of utility tags to cover common use cases such as HTML encoding and indent control. [declandewet/common-tags](https://github.com/declandewet/common-tags) is a great and well tested example.
 
 ```javascript
 function spamToHamFilter(strings, ...values) {
