@@ -1,19 +1,21 @@
 # Destructuring Assignment
 
-## Syntax
-
 Destructuring assignment makes it easy to extract values from arrays or objects into variables.
 
-### For arrays
+## Syntax
 
-Assignment is based on the item positions in the array.
+### Array destructuring
+
+Any iterable data type can be used for array destructuring. This includes `Array`, `String`, and `Set` among others -- also iterable objects.
+
+Assignment is based on the iteration order.
 
 ```javascript
 const things = [1, 2, 3];
 const [a, b, c] = things; // a = 1, b = 2, c = 3
 ```
 
-### For objects
+### Object destructuring
 
 Assignment is based on the object keys.
 
@@ -30,18 +32,7 @@ const things = { a: 1, b: 2, c: 3 };
 const { a: arthur, b: betty, c } = things; // arthur = 1, betty = 2, c = 3
 ```
 
-### Default parameter values
-
-It is also very common to use default values with destructuring assignment.
-See [Default parameters](./default-parameters.md) for more detail.
-
-```javascript
-const [a = 0, b = 0, c = 0] = [1, 2]; // a = 1, b = 2, c = 0
-
-const { arthur = 0, betty = 0 } = { betty: 30 }; // arthur = 0, betty = 30
-```
-
-### With existing variables
+#### With existing variables
 
 Object destructuring expressions must be wrapped with parentheses if they are separate from the variable declaration.
 This is because JavaScript statements must not begin with curly braces.
@@ -52,13 +43,25 @@ let a, b;
 { a, b } = { a = 3, b = 4 }; // throws a SyntaxError
 ```
 
+### Default parameter values
+
+It is also possible to use default values with destructuring assignment.
+These are assigned in place of any `undefined` values.
+See [Default parameters](./default-parameters.md) for more detail.
+
+```javascript
+const [a = 0, b = 0, c = 0] = [1, 2]; // a = 1, b = 2, c = 0
+
+const { arthur = 0, betty = 0 } = { betty: 30 }; // arthur = 0, betty = 30
+```
+
 ## Usage
 
 Destructuring assignment can dramatically improve a lot of tasks which were painful to write in old JavaScript (ES5 or below).
 
 ### Destructuring strings
 
-_Any iterable data type can be used for array destructuring. This includes `Array`, `String`, and `Set` among others -- also custom classes._
+Because strings are iterable they can be destructured.
 
 ```javascript
 const city = 'Dunedin';
