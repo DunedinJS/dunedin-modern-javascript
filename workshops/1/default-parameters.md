@@ -38,6 +38,7 @@ function oldTimes2(arg) {
   return 2 * a;
 }
 
+// with default parameters
 function times2(a = 0) {
   return 2 * a;
 }
