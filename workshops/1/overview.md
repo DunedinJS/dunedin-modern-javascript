@@ -20,18 +20,17 @@ Sort of like Douglas Crockford's [JavaScript: The Good Parts](http://shop.oreill
 * [`let`, `const`, and block scope](let-and-const.md)
 * [Arrow functions and their binding](arrow-functions.md)
 * [Template literals](template-literals.md)
-* (Coming soon) destructuring assignment `[a, b] = [1, 2]`
+* [Default parameters](default-parameters.md)
+* [Destructuring assignment](destructuring-assignment.md)
 * (Coming soon) rest and spread `[x, ...a]`
-* (Coming soon) default param values `function(x = 0) {}`
 * (Coming soon) enhanced object literal features `{ someValue, someMethod() {}, ['key' + x]: 'value' }`
 * (Coming soon) An overview of current browser support
 
 ## Resources
 
-* Douglas Crockford's [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do)
 * [Overview of ECMAScript 6 features](https://github.com/lukehoban/es6features)
-* MDN - [Destructuring Assignment](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
-* MDN - [Default Parameters](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Default_parameters)
+* Dr. Axel Rauschmayer's [Exploring ES6](http://exploringjs.com/es6/)
+* Douglas Crockford's [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do)
 * MDN - [Spread Operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator)
 * MDN - [Rest parameters](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/rest_parameters)
 * Ben Ilegbodu's [Learning ES6: Enhanced object literals](http://www.benmvp.com/learning-es6-enhanced-object-literals/)
