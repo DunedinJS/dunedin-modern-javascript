@@ -80,10 +80,10 @@ function someCoolFn() {
   // the function has its own scope.
   // references declared inside the function are not accessible outside the function
   var b = 1;
-  
+
   // but we can access references in any scopes above this function
   console.log(a); // logs 0
-  
+
   if (true) {
     // blocks now have their own scope but it only applies to let and const
     // var declarations are 'hoisted' to the above function scope
@@ -113,10 +113,10 @@ function someCoolFn() {
   // the function has its own scope
   // references declared inside the function are not accessible outside the function
   let b = 1;
-  
+
   // but we can access references in any scopes above this function
   console.log(a); // logs 0
-  
+
   if (true) {
     // blocks now have their own scope but it only applies to let and const
     // let and const declarations not are hoisted
