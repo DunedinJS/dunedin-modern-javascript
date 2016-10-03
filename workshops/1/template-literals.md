@@ -10,8 +10,9 @@ Template literals are wrapped in backticks ``` ` ``` instead of the single `'` o
 const a = 1;
 const b = 2;
 
-console.log('' + a + ' + ' + b + ' = ' + (a + b)); // logs '1 + 2 = 3'
-console.log(`${a} + ${b} = ${a + b}`); // logs '1 + 2 = 3'
+const str = `${a} + ${b} = ${a + b}`;
+
+console.log(str); // logs '1 + 2 = 3'
 ```
 
 Only the backtick character and the `${` combination used to start interpolation placeholders need to be escaped when writing template literals.
@@ -24,6 +25,29 @@ Only the backtick character and the `${` combination used to start interpolation
 
 `${}` // throws a SyntaxError -- expects a value to interpolate
 `${` // throws a SyntaxError -- unterminated placeholder
+```
+
+## Compared to other string interpolation methods
+
+Prior to ES6/ES2015 there was no language feature for string interpolation.
+It was normal to concatenate strings with the `+` operator or use the array `.join()` method.
+
+```javascript
+const a = 1;
+const b = 2;
+
+// old JavaScript with string concatenation
+var old1 = '' + a + ' + ' + b + ' = ' + (a + b);
+
+// old JavaScript with array join
+var old2 = [a, '+', b, '=', a + b].join(' ');
+
+// modern JavaScript with template literals
+const modern = `${a} + ${b} = ${a + b}`);
+
+console.log(old1); // logs '1 + 2 = 3'
+console.log(old2); // logs '1 + 2 = 3'
+console.log(modern); // logs '1 + 2 = 3'
 ```
 
 ## Multiline
@@ -64,12 +88,19 @@ getString() {
     line two`;
 }
 
-console.log(getString()); // logs a like 'line one\n    line two'
+console.log(getString()); // logs a string like 'line one\n    line two'
 ```
 
 ## Tagged template literals
 
-Template literals can be 'tagged' to modify output. A tag is a function which accepts an array of string segments then each interpolation value.
+Tagged template literals use the same syntax as normal template literals except that they are 'tagged' with a function which controls how the values are interpolated.
+Because of this they are actually a special type of function call.
+A tag function accepts an array of string segments then each interpolation value.
+
+The basic syntax:
+```javascript
+fn`Hello, ${x}!`
+```
 
 Among other uses, tags are useful for encoding of escaping values and whitespace control.
 
