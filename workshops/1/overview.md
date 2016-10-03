@@ -15,7 +15,7 @@ The aim od this workshop is to give you enough knowledge of new syntax to unders
 We also cover some existing JS idioms and how modern language features can improve them.
 Sort of like Douglas Crockford's [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do) but updated. Although the book is now dated it is still a very valuable read.
 
-##Content
+## Content
 
 * [`let`, `const`, and block scope](let-and-const.md)
 * [Arrow functions and their binding](arrow-functions.md)
