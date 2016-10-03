@@ -66,5 +66,5 @@ getNum(); // 5
 
 ## Resources
 
-* Dr. Axel Rauschmayer, Exploring ES6 [Parameter handling - Parameter default values](http://exploringjs.com/es6/ch_parameter-handling.html#sec_parameter-default-values)
+* Dr. Axel Rauschmayer, Exploring ES6 - [11.3 - Parameter default values](http://exploringjs.com/es6/ch_parameter-handling.html#sec_parameter-default-values)
 * MDN - [Default Parameters](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Default_parameters)

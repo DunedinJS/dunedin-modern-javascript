@@ -80,10 +80,10 @@ function someCoolFn() {
   // the function has its own scope.
   // references declared inside the function are not accessible outside the function
   var b = 1;
-  
+
   // but we can access references in any scopes above this function
   console.log(a); // logs 0
-  
+
   if (true) {
     // blocks now have their own scope but it only applies to let and const
     // var declarations are 'hoisted' to the above function scope
@@ -113,10 +113,10 @@ function someCoolFn() {
   // the function has its own scope
   // references declared inside the function are not accessible outside the function
   let b = 1;
-  
+
   // but we can access references in any scopes above this function
   console.log(a); // logs 0
-  
+
   if (true) {
     // blocks now have their own scope but it only applies to let and const
     // let and const declarations not are hoisted
@@ -163,8 +163,8 @@ Use `let` when there is a need to re-assign a reference and avoid `var` complete
 
 ## Resources
 
+* Dr. Axel Rauschmayer, Exploring ES6 - [4.1 - From `var` to `let`/`const`](http://exploringjs.com/es6/ch_core-features.html#_from-var-to-letconst)
 * MDN - [const](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const)
 * MDN - [let](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/let)
 * MDN - [Variable Scope and Hoisting](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variable_scope)
 * MDN - [Block Statements](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/block)
-* MDN - [Closures](https://developer.mozilla.org/en/docs/Web/JavaScript/Closures)

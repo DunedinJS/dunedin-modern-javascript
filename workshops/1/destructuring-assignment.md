@@ -138,5 +138,5 @@ b = a; // b = 1
 
 ## Resources
 
-* Dr. Axel Rauschmayer, Exploring ES6 [Destructuring](http://exploringjs.com/es6/ch_destructuring.html)
+* Dr. Axel Rauschmayer, Exploring ES6 - [10 - Destructuring](http://exploringjs.com/es6/ch_destructuring.html)
 * MDN - [Destructuring Assignment](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
