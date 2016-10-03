@@ -110,6 +110,8 @@ tag`\u03A9`;
 
 ## Resources
 
+* Dr. Axel Rauschmayer, Exploring ES6 - [4.3 - From concatenating strings to template literals](http://exploringjs.com/es6/ch_core-features.html#_from-concatenating-strings-to-template-literals)
+* Dr. Axel Rauschmayer, Exploring ES6 - [8 - Template literals](http://exploringjs.com/es6/ch_template-literals.html#ch_template-literals)
 * Pony Foo - [Template Literals are Strictly Better Strings](https://ponyfoo.com/articles/template-literals-strictly-better-strings)
 * MDN - [Template Literals](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Template_literals)
 * [declandewet/common-tags](https://github.com/declandewet/common-tags)

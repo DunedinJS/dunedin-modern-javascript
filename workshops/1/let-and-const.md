@@ -163,8 +163,8 @@ Use `let` when there is a need to re-assign a reference and avoid `var` complete
 
 ## Resources
 
+* Dr. Axel Rauschmayer, Exploring ES6 - [4.1 - From `var` to `let`/`const`](http://exploringjs.com/es6/ch_core-features.html#_from-var-to-letconst)
 * MDN - [const](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/const)
 * MDN - [let](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/let)
 * MDN - [Variable Scope and Hoisting](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variable_scope)
 * MDN - [Block Statements](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/block)
-* MDN - [Closures](https://developer.mozilla.org/en/docs/Web/JavaScript/Closures)
