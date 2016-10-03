@@ -94,13 +94,14 @@ To produce a new array with the same items and order as an existing array.
 const array = [1, 2, 3];
 
 // old JavaScript
-array.slice();
+array.slice(); // produces [1, 2, 3]
 
 // modern JavaScript
-[...array];
+[...array]; // produces [1, 2, 3]
 ```
 
-The same can be done for iterable array-like objects such as `arguments`.
+The same can be done for other iterable objects such as `arguments`.
+Their items are extracted into a real array.
 
 ```javascript
 // a strange IIFE to capture an arguments object
