@@ -22,8 +22,8 @@ __[Workshop 2](workshops/2/overview.md):__ gain a practical taste of modern Java
 ### Other topics which are big enough for entire workshops -- suggested in order:
 
 1. Classes, native array and object methods, iterators, generators, and symbols
-1. CommonJS, using NPM, Native modules, and how no browsers can currently load modules
-1. [Webpack](https://webpack.github.io/) part 1 -- dev server, module bundling and using loaders (examples with [ESLint](http://eslint.org/), [Babel](https://babeljs.io/), [JSX](https://facebook.github.io/jsx/), and [TypeScript](https://www.typescriptlang.org/) would be good)
+1. CommonJS, using [NPM](https://docs.npmjs.com/), Native modules, and how no browsers can currently load modules
+1. [Webpack](https://webpack.github.io/) part 1 -- dev server, module bundling and using loaders (examples with [ESLint](http://eslint.org/), [Babel](https://babeljs.io/), [JSX](https://facebook.github.io/jsx/), and [TypeScript](https://www.typescriptlang.org/))
 1. Webpack part 2 -- versioning, loading non-JS assets, using plugins, shimming awful old libraries :(
 1. Unit testing with [Jest](https://facebook.github.io/jest/)
 
@@ -34,11 +34,11 @@ __[Workshop 2](workshops/2/overview.md):__ gain a practical taste of modern Java
 * End-to-end testing with [WebDriver.io](http://webdriver.io/) (Selenium)
 * Virtual DOM in [React](https://facebook.github.io/react/) and other implementations -- what happens when we compile that crazy JSX source!
 * [Redux](http://redux.js.org/) and immutable data structures -- how to use them for application state -- standalone then with React
+* [TypeScript](https://www.typescriptlang.org/)
 
 ### And some topics which may be more niche or only suitable for those with extensive JS knowledge:
 
-* [TypeScript](https://www.typescriptlang.org/)
-* [RxJS](https://github.com/Reactive-Extensions/RxJS)
+* Reactive programming with [RxJS](https://github.com/Reactive-Extensions/RxJS)
 * [CSS modules](https://github.com/css-modules/css-modules) in React
 * Webpack part 3 -- hot module reloading with React, time-travel
 * [React Native](https://facebook.github.io/react-native/) -- learn once, write everywhere for web, iOS, and Android
