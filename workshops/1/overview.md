@@ -33,6 +33,10 @@ We also cover some existing idioms and how modern language features can improve 
 1. _(Coming soon)_ Enhanced object literal features
 1. _(Coming soon)_ An overview of browser support
 
+## Next
+
+__[Workshop 2](workshops/2/overview.md):__ gain a practical taste of modern JavaScript by starting with a small starter project and building a simple application with React.
+
 ## Resources
 
 * Luke Hoban's [Overview of ECMAScript 6 features](https://github.com/lukehoban/es6features)
