@@ -22,6 +22,8 @@ You will gain enough knowledge of modern syntax to understand what's going so th
 
 We also cover some existing idioms and how modern language features can improve them.
 
+If you'd like to run code samples [JS Bin](https://jsbin.com/qexepiparu/edit?js,console) is a great option with syntax highlighting. The developer console in modern web browsers also works but you'll need to use SHIFT+RETURN for multi-line code.
+
 ## Content
 
 1. [`let`, `const`, and block scope](let-and-const.md)
