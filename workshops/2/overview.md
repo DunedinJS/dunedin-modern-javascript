@@ -12,7 +12,7 @@ It's recommended you take a look at [Workshop 1](../1/overview.md) to be familia
 
 JavaScript web application development has changed dramatically since ~2010.
 
-Late 2010 saw the release of [Backbone](http://backbonejs.org/). It became the first widely used JavaScript framework to separate applications into a model-view-controller structure but was still very much rooted in the jQuery status-quo.
+Late 2010 saw the release of Backbone.js. It became the first widely used JavaScript framework to structure applications applications with clearly separated data, logic, and presentation layers. It was a huge success but still very much a layer atop the jQuery status-quo.
 
 There has been steady progress since then to add modern language features and develop libraries, frameworks, methodologies, and tooling which improve application development from both the developer's and the end-user's perspective.
 
