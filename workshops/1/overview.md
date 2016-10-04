@@ -10,9 +10,15 @@ If completely unfamiliar with JavaScript it's recommended you take a look at [Sp
 
 ## Background
 
-JavaScript has a reputation for being a 'messy' language so let's forget about browser APIs, DOM, libraries, etc... and go back to basics to uncover its elegant base.
+JavaScript has a reputation for being a 'messy' language. There are many 'good' parts and many 'bad' parts (see Douglas Crockford's [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do)). Various patterns and work-arounds have emerged out of necessity to achieve common tasks.
 
-The aim of this workshop is to give you enough knowledge of new syntax to understand what's going so that you can participate in further workshops.
+Modern JavaScript introduces a lot of new language features which can make it much more intuitive to work with.
+
+## Aim
+
+Let's forget about browser APIs, DOM, libraries, etc... and go back to basics to uncover JavaScript's core features.
+
+You will gain enough knowledge of modern syntax to understand what's going so that you can participate in further workshops.
 
 We also cover some existing idioms and how modern language features can improve them.
 
