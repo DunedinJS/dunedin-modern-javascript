@@ -1,4 +1,4 @@
-# Workshop 2: A taste of Modern JavaScript
+# Workshop 2: a taste of Modern JavaScript
 
 ## Target audience
 
