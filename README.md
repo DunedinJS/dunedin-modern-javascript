@@ -17,20 +17,18 @@ __By modern JavaScript we mean:__
 
 __[Workshop 1](workshops/1/overview.md):__ back to basics to cover some existing JS idioms and how modern language features can improve them. An introduction to new syntax and basic language features.
 
+__[Workshop 2](workshops/2/overview.md):__ gain a practical taste of modern JavaScript by starting with a small starter project and building a simple application with React.
+
 ### Other topics which are big enough for entire workshops -- suggested in order:
 
-1. Native Array and Object methods
-1. Class and module syntax -- also cover how no browsers can currently load modules
-1. High-level overview of [Node.js](https://nodejs.org/), NPM, and CommonJS modules
+1. Classes, native array and object methods, iterators, generators, and symbols
+1. CommonJS, using NPM, Native modules, and how no browsers can currently load modules
 1. [Webpack](https://webpack.github.io/) part 1 -- dev server, module bundling and using loaders (examples with [ESLint](http://eslint.org/), [Babel](https://babeljs.io/), [JSX](https://facebook.github.io/jsx/), and [TypeScript](https://www.typescriptlang.org/) would be good)
 1. Webpack part 2 -- versioning, loading non-JS assets, using plugins, shimming awful old libraries :(
-1. Unit testing with [Jest](https://facebook.github.io/jest/)*
-
-_*Unit testing is something which is very unstandardised at this stage -- suggestions on this are welcome_
+1. Unit testing with [Jest](https://facebook.github.io/jest/)
 
 ### Also some niche topics which are still entry-level:
 * Type annotations with [Flow](https://flowtype.org/)
-* Iterators, generators, symbols
 * Promises and a glimpse at `async` and `await`
 * [Lodash](https://lodash.com/) and functional composition with Lodash/FP
 * End-to-end testing with [WebDriver.io](http://webdriver.io/) (Selenium)
@@ -45,7 +43,7 @@ _*Unit testing is something which is very unstandardised at this stage -- sugges
 * Webpack part 3 -- hot module reloading with React, time-travel
 * [React Native](https://facebook.github.io/react-native/) -- learn once, write everywhere for web, iOS, and Android
 * Future module loading -- [JSPM](http://jspm.io/), [SystemJS](https://github.com/systemjs/systemjs), HTTP/2 (maybe also Webpack 2)
-* Decorators and an introduction to [Angular 2](https://angular.io/) -- Using draft language features now!
+* An introduction to [Angular 2](https://angular.io/) with [TypeScript](https://www.typescriptlang.org/)
 * Angular 2 dependency injection
 * Proxy and Reflect
 * New data structures -- Map, Set, WeakMap, WeakSet
