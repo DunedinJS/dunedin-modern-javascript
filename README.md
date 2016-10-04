@@ -23,7 +23,7 @@ __[Workshop 2](workshops/2/overview.md):__ gain a practical taste of modern Java
 
 1. Classes, native array and object methods, iterators, generators, and symbols
 1. Fetch API and Promises
-1. CommonJS, using [NPM](https://docs.npmjs.com/), ES6 modules and how browsers can't currently them
+1. CommonJS, using [NPM](https://docs.npmjs.com/), ES6 modules and how browsers can't currently load them
 1. [Webpack](https://webpack.github.io/) part 1 -- dev server, module bundling and using loaders (examples with [ESLint](http://eslint.org/), [Babel](https://babeljs.io/), [JSX](https://facebook.github.io/jsx/), and [TypeScript](https://www.typescriptlang.org/))
 1. Webpack part 2 -- versioning, loading non-JS assets, using plugins, shimming awful old libraries :(
 1. Unit testing with [Jest](https://facebook.github.io/jest/)
