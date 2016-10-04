@@ -22,14 +22,15 @@ __[Workshop 2](workshops/2/overview.md):__ gain a practical taste of modern Java
 ### Other topics which are big enough for entire workshops -- suggested in order:
 
 1. Classes, native array and object methods, iterators, generators, and symbols
-1. CommonJS, using [NPM](https://docs.npmjs.com/), Native modules, and how no browsers can currently load modules
+1. Fetch API and Promises
+1. CommonJS, using [NPM](https://docs.npmjs.com/), ES6 modules and how browsers can't currently them
 1. [Webpack](https://webpack.github.io/) part 1 -- dev server, module bundling and using loaders (examples with [ESLint](http://eslint.org/), [Babel](https://babeljs.io/), [JSX](https://facebook.github.io/jsx/), and [TypeScript](https://www.typescriptlang.org/))
 1. Webpack part 2 -- versioning, loading non-JS assets, using plugins, shimming awful old libraries :(
 1. Unit testing with [Jest](https://facebook.github.io/jest/)
 
 ### Also some niche topics which are still entry-level:
 * Type annotations with [Flow](https://flowtype.org/)
-* Promises and a glimpse at `async` and `await`
+* A glimpse at `async` and `await`
 * [Lodash](https://lodash.com/) and functional composition with Lodash/FP
 * End-to-end testing with [WebDriver.io](http://webdriver.io/) (Selenium)
 * Virtual DOM in [React](https://facebook.github.io/react/) and other implementations -- what happens when we compile that crazy JSX source!
