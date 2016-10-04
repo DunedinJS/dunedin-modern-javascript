@@ -35,7 +35,7 @@ We also cover some existing idioms and how modern language features can improve 
 
 ## Next
 
-__[Workshop 2](workshops/2/overview.md):__ gain a practical taste of modern JavaScript by starting with a small starter project and building a simple application with React.
+__[Workshop 2](../2/overview.md):__ gain a practical taste of modern JavaScript by starting with a small starter project and building a simple application with React.
 
 ## Resources
 
