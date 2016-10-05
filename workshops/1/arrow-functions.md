@@ -136,6 +136,6 @@ console.log(arrowFn.bind({})() === thing);
 
 * Dr. Axel Rauschmayer, Exploring ES6 - [13 - Arrow functions](http://exploringjs.com/es6/ch_arrow-functions.html)
 * MDN - [Arrow Functions](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
-* MDN - [this](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/this)
+* MDN - [`this`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/this)
 * MDN - [Function.prototype.bind()](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
 * MDN - [Function.prototype.call()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)
