@@ -162,10 +162,10 @@ There is a current draft for [Object Rest/Spread Properties](https://github.com/
 These features are likely to be included in the ES2017 standard.
 
 ```javascript
-// rest
+// rest for object destructuring
 let { a, ...otherProps } = { a: 1, b: 2, c: 3 }; // a = 1, otherProps = { b: 2, c: 3 }
 
-// spread
+// spread for object properties
 let thing = { a: 1, b: 2 };
 { ...thing, c: 3 }; // produces a new object { a: 1, b: 2, c: 3 }
 ```
