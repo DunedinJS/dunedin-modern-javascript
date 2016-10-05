@@ -28,16 +28,18 @@ It's recommended to use [NVM](https://github.com/creationix/nvm) which allows yo
 
 Gain a taste of working with a modern JavaScript codebase.
 
-We begin with the [Create React App](https://github.com/facebookincubator/create-react-app) starter project which provides all the necessary tooling and configuration to start building a application with [React](https://facebook.github.io/react/).
+We begin with the [Create React App](https://github.com/facebookincubator/create-react-app) an amazing little starter project which provides all the necessary tooling and configuration to start building a application with [React](https://facebook.github.io/react/).
 
-These are by no means the only options but they allow us to take a dive into a relatively standard codebase and apply use some of the modern JavaScript features seen in Workshop 1.
+This is by no means the only option but it allows us to take a dive into a relatively standard codebase and apply some of the modern JavaScript features seen in Workshop 1.
 
-We will also briefly cover Modules and Classes which are new ES6 features that weren't covered in Workshop 1.
+We will also briefly cover:
+
+* Modules and Classes which are new ES6 features that weren't covered in Workshop 1
+* React and its JSX syntax
+* Testing
 
 ## Content
 
 1. [The starter project](./starter-project.md)
 1. [Exploring the starter project](./exploring.md)
-1. Adding React and how to import modules
-1. Brief intro to JSX and the Virtual DOM
-1. Write your first component
+1. [Exploring the source code](./exploring-code.md)
