@@ -156,6 +156,20 @@ string.split(''); // ['a', 'b', 'c']
 [...string]; // ['a', 'b', 'c']
 ```
 
+## Rest and spread for object properties
+
+There is a current draft for [Object Rest/Spread Properties](https://github.com/sebmarkbage/ecmascript-rest-spread).
+These features are likely to be included in the ES2017 standard.
+
+```javascript
+// rest
+let { a, ...otherProps } = { a: 1, b: 2, c: 3 }; // a = 1, otherProps = { b: 2, c: 3 }
+
+// spread
+let thing = { a: 1, b: 2 };
+{ ...thing, c: 3 }; // produces a new object { a: 1, b: 2, c: 3 }
+```
+
 ## Resources
 
 * MDN - [Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)
