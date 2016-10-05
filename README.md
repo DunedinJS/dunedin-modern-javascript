@@ -17,7 +17,7 @@ __By modern JavaScript we mean:__
 
 __[Workshop 1](workshops/1/overview.md):__ back to basics to cover some existing JS idioms and how modern language features can improve them. An introduction to new syntax and basic language features.
 
-__[Workshop 2](workshops/2/overview.md):__ gain a practical taste of modern JavaScript by starting with a small starter project and building a simple application with React.
+__[Workshop 2](workshops/2/overview.md):__ gain a practical taste of modern JavaScript by starting with a small starter project and building a simple application with React and some of the modern features learnt in Workshop 1.
 
 ### Other topics which are big enough for entire workshops -- suggested in order:
 
