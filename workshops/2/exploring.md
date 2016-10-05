@@ -60,7 +60,7 @@ Open [`http://localhost:3000`](http://localhost:3000) in your web browser.
 
 ## Next
 
-[Explore the source code](./explore-code.md)
+[Explore the source code](./exploring-code.md)
 
 ## Resources
 
