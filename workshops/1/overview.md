@@ -42,8 +42,8 @@ __[Workshop 2](../2/overview.md):__ gain a practical taste of modern JavaScript 
 ## Resources
 
 * Luke Hoban's [Overview of ECMAScript 6 features](https://github.com/lukehoban/es6features)
-* Dr. Axel Rauschmayer who organises [MunichJS](http://www.munichjs.org/) has published three excellent books which are free to read online:
+* Dr. Axel Rauschmayer who organises [MunichJS](http://www.munichjs.org/) and runs the [2ality](http://www.2ality.com/) blog has published three excellent books which are free to read online:
   * [Speaking JavaScript](http://speakingjs.com/) covers old JavaScript (up to ES5). A great resource for those with exposure to other lanuages but new to JavaScript.
   * [Exploring ES6](http://exploringjs.com/es6/) covers modern language features introduced by ES6 and provides many practical comparisons to old/existing patterns.
-  * [Exploring ES2016 and ES2017](https://leanpub.com/exploring-es2016-es2017) covers modern language features introduced in ES2016 and proposed for ES2017. This is a "living" book which will become more complete as ES2017 is standardised.
+  * [Exploring ES2016 and ES2017](https://leanpub.com/exploring-es2016-es2017) covers modern language features introduced in ES2016 (ES7) and those drafted for ES2017. This is a "living" book which will become more complete as ES2017 is standardised.
 * Douglas Crockford's [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do) covers only old JavaScript (up to ES5) but it is still a very valuable resource because it points out which parts of the language to use and which to avoid. Best for those with some existing experience but considered by many as the best JavaScript book ever published.
