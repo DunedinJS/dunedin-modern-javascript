@@ -16,17 +16,21 @@ Late 2010 saw the release of Backbone.js. It became the first widely used JavaSc
 
 There has been steady progress since then to add modern language features and develop libraries, frameworks, methodologies, and tooling which improve application development from both the developer's and the end-user's perspective.
 
+## Requirements
+
+Node.js version 4 or higher is required. It is recommended to use version 6 because it has much wider support for modern features and has official long-term-support until April 2019.
+
 ## Aim
 
 Gain a taste of working with a modern JavaScript codebase.
 
-We begin with a small starter project with [NPM](https://docs.npmjs.com/), [Webpack](https://webpack.github.io/), and [Babel](https://babeljs.io/) then build a simple application with [React](https://facebook.github.io/react/) and [JSX](https://facebook.github.io/jsx/).
-These technologies are very popular but by no means the only options.
+We begin with the [Create React App](https://github.com/facebookincubator/create-react-app) starter project which provides all the necessary tooling and configuration to start building a application with [React](https://facebook.github.io/react/).
+
+These are by no means the only options but they allow us to take a dive into a relatively standard codebase and apply use some of the modern JavaScript features seen in Workshop 1.
 
 ## Content
 
-1. Exploring the starter project
-1. Installing Node.js, NPM, and project dependencies
+1. [The starter project](./starter-project.md)
 1. Building with Webpack
 1. Adding React and how to import modules
 1. Brief intro to JSX and the Virtual DOM
