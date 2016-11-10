@@ -136,6 +136,10 @@ b = a; // b = 1
 [a, b] = [b, a]; // a = 1, b = 2
 ```
 
+## Next
+
+__[Rest and spread](rest-and-spread.md)__
+
 ## Resources
 
 * Dr. Axel Rauschmayer, Exploring ES6 - [10 - Destructuring](http://exploringjs.com/es6/ch_destructuring.html)
