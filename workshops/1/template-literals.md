@@ -139,6 +139,10 @@ function tag(strings) {
 tag`\u03A9`;
 ```
 
+## Next
+
+__[Default parameters](default-parameters.md)__
+
 ## Resources
 
 * Dr. Axel Rauschmayer, Exploring ES6 - [4.3 - From concatenating strings to template literals](http://exploringjs.com/es6/ch_core-features.html#_from-concatenating-strings-to-template-literals)
