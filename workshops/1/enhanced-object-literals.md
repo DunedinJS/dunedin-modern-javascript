@@ -69,6 +69,12 @@ var thing = {}; // object literal
 thing['some' + 'thing'] = 1; // a computed property key -- thing is now { something: 1 }
 ```
 
+## Next
+
+This is the end of __[Workshop 1](../1/overview.md)__
+
+Continue to __[Workshop 2](../2/overview.md)__
+
 ## Resources
 
 * MDN - [Object initializer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer)
