@@ -1,4 +1,4 @@
-# Arrow Functions
+# Arrow functions and their binding
 
 ## Syntax
 
@@ -91,7 +91,7 @@ const thing = {
 thing.logIn1000(); // logs 'Great success!' after 1000 milliseconds
 ```
 
-Arrow functions are not suitable when the `this` context of the call needs to be used instead of the `this` context of where the function is defined.
+An arrow function is __not__ suitable if the function needs to be called with a different `this` context than it was defined with.
 In that case conventional functions need to be used.
 
 ## Example
@@ -131,6 +131,10 @@ console.log(fn.bind(thing)() === thing);
 console.log(arrowFn.call({}) === thing);
 console.log(arrowFn.bind({})() === thing);
 ```
+
+## Next
+
+__[Template literals](template-literals.md)__
 
 ## Resources
 
