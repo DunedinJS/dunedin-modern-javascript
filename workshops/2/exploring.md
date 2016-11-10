@@ -54,7 +54,7 @@ It is minified with hashed filenames.
 
 Make sure you've moved into the project directory `cd my-app`.
 Then run `npm start` in one terminal window/tab and run `npm test` in another.
-You'll make use of both of these during development.
+You'll use both of these during development.
 
 Open [`http://localhost:3000`](http://localhost:3000) in your web browser.
 
