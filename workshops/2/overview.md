@@ -21,7 +21,7 @@ There has been steady progress since then to add modern language features and de
 A good text editor with JavaScript syntax support.
 [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com), and [Sublime Text](https://www.sublimetext.com/) are excellent options.
 
-Node.js version 6. Other versions may work but 6 is recommended because has official long-term-support until April 2019.
+Node.js version 6. Other versions may work but 6 is recommended because it has official long-term-support until April 2019.
 
 [NVM](https://github.com/creationix/nvm) is recommended to install and manage Node.js versions.
 This allows you to install multiple versions of Node.js on the same machine and easily switch between them for different projects.
