@@ -24,6 +24,8 @@ We also cover some existing idioms and how modern language features can improve 
 
 If you'd like to run code samples [JS Bin](https://jsbin.com/sohokotiku/1/edit?js,console) is a great option with syntax highlighting. The developer console in modern web browsers also works but you'll need to use SHIFT+RETURN for multi-line code.
 
+All features covered in this workshop are also supported by Node.js as of version 6.
+
 ## Content
 
 1. [`let`, `const`, and block scope](let-and-const.md)
@@ -32,8 +34,7 @@ If you'd like to run code samples [JS Bin](https://jsbin.com/sohokotiku/1/edit?j
 1. [Default parameters](default-parameters.md)
 1. [Destructuring assignment](destructuring-assignment.md)
 1. [Rest and spread](rest-and-spread.md)
-1. _(Coming soon)_ Enhanced object literal features
-1. _(Coming soon)_ An overview of browser support
+1. [Enhanced object literals](enhanced-object-literals.md)
 
 ## Next
 
