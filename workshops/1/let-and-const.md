@@ -159,7 +159,8 @@ console.log(b); // throws ReferenceError because b is not in scope
 ## Usage
 
 > It's generally accepted when writing modern JavaScript that `const` is preferred wherever possible.
-Use `let` when there is a need to re-assign a reference and avoid `var` completely because there is no good reason to use it.
+
+> Use `let` when there is a need to re-assign a reference and avoid `var` completely because there is no good reason to use it.
 
 ## Next
 
