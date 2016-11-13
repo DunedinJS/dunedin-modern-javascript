@@ -35,6 +35,7 @@ __[Workshop 2](workshops/2/overview.md):__ gain a practical taste of modern Java
 * Advanced Webpack -- versioning, code splitting, using plugins, shimming awful old libraries :(
 * [Lodash](https://lodash.com/) and functional composition with Lodash/FP
 * End-to-end testing with [WebDriver.io](http://webdriver.io/) (Selenium)
+* [Vue.js](https://vuejs.org/) -- a simple, minimal framework
 * Virtual DOM in [React](https://facebook.github.io/react/) and other implementations -- what happens when we compile that crazy JSX source!
 * [Redux](http://redux.js.org/) and immutable data structures -- how to use them for application state -- standalone then with React
 * [TypeScript](https://www.typescriptlang.org/)
