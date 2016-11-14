@@ -17,15 +17,18 @@ __By modern JavaScript we mean:__
 
 __[Workshop 1](workshops/1/overview.md):__ back to basics to cover some existing JS idioms and how modern language features can improve them. An introduction to some of the most important new syntax and language features.
 
-__[Workshop 2](workshops/2/overview.md):__ gain a practical taste of modern JavaScript by starting with a small starter project and building a simple application with React. Here you can use and some of the modern features learnt in Workshop 1 and will also be introduced to Modules and Classes.
+__[Workshop 2 -- work in progress](workshops/2/overview.md):__ gain a practical taste of modern JavaScript by starting with a small starter project and building a simple application with React. Here you can use and some of the modern features learnt in Workshop 1 and will also be introduced to Modules and Classes.
+
+__Workshop 3 -- coming soon__ extend our starter project from Workshop 2 by adding data requests. You will be also introduced to Promises and the Fetch API.
 
 ### Core topics which would be good to cover as mini-workshops:
 
-1. Classes
-1. New Array and Object methods, Iterators, Generators, Symbols
-1. Promises and the Fetch API
-1. Modules and package management -- ES6 modules, CommonJS modules, and using [NPM](https://docs.npmjs.com/)
-1. New data structures -- Map, Set, WeakMap, WeakSet
+* Classes
+* New Array and Object methods, Iterators, Generators, Symbols
+* Promises and the Fetch API
+* Modules including ES6 modules, CommonJS modules
+* Package and task management with [NPM](https://docs.npmjs.com/)
+* New data structures -- Map, Set, WeakMap, WeakSet
 
 ### Specialised entry-level topics:
 * [Webpack](https://webpack.github.io/) basics -- dev server, module bundling, and using loaders
