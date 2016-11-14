@@ -12,6 +12,15 @@ __By modern JavaScript we mean:__
 * features from the ES6/ES2015 and ES7/ES2016 specs &mdash; most of these are supported by current browsers or can be polyfilled
 * proposed and draft features which can already be used with transpilers such as Babel or TypeScript
 
+## Engagement
+
+We're looking for any suggestions of what you, the JavaScript community would like to learn about or present. All levels of experience from 'never touched it' to 'guru' are valuable as is feedback about what works best.
+
+This is a "living document" so please raise an issue, or open a pull request if you notice any problems or would like to contribute.
+
+Many topics listed are just suggestions so it would be great to have contributions from people interested in specific areas.
+Suggestions of other topics are most welcome.
+
 
 ## Workshops
 
@@ -47,19 +56,19 @@ __Core language features__
 * Map and WeakMap
 * Set and WeakSet
 
-__Commonly used standards and tools__
+__Freqently used standards and tools__
 * Chrome Devtools &mdash; Console
 * Getting started with Node.js and NPM
 * CommonJS modules
 * NPM &mdash; Package management
 * NPM &mdash; Task management
 * Chrome Devtools &mdash; Debugging JavaScript
+* ESLint and the Airbnb JavaScript Style Guide
 
 ### Specialised entry-level topics:
 * [Webpack](https://webpack.github.io/) basics &mdash; dev server, module bundling, and using loaders
 * Unit testing with [Jest](https://facebook.github.io/jest/)
 * Type annotations with [Flow](https://flowtype.org/)
-* [ESLint](http://eslint.org/) and the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 * A glimpse at `async` and `await`
 * Advanced Webpack &mdash; versioning, code splitting, using plugins, shimming awful old libraries :(
 * [Lodash](https://lodash.com/) and functional composition with Lodash/FP
@@ -85,8 +94,6 @@ __Commonly used standards and tools__
 
 ## Contributing:
 
-We're looking for any suggestions of what you, the JavaScript community would like to learn about or present. All levels of experience from 'never touched it' to 'guru' are valuable.
+Feel free to raise any issues, or open a pull request with changes. Also, feel free to contact Matthew Norrish directly at matt@mnorrish.co.nz.
 
-Feel free to contact me directly at matt@mnorrish.co.nz or open a pull request with changes. If you would like to present a topic, please open a pull request with your suggestion. Refer to Workshop 1 as an example format.
-
-Also we are reaching out to JavaScript New Zealand for support and advice. [Join the JavaScript New Zealand team on Slack](http://slack.javascript.org.nz) and the [#dunedin-js](https://javascriptnewzealand.slack.com/messages/dunedin-js) channel.
+We are reaching out to JavaScript New Zealand for support and advice. [Join the JavaScript New Zealand team on Slack](http://slack.javascript.org.nz) and the [#dunedin-js](https://javascriptnewzealand.slack.com/messages/dunedin-js) channel.
