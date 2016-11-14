@@ -70,6 +70,7 @@ b = {}; // throws a TypeError
 ## Block scope
 
 Unlike references declared with `var`, those declared with `let` or `const` are block-scoped.
+
 See [Block scope](./block-scope.md) for details as it is one of the most important features introduced in modern JavaScript.
 
 ## Usage

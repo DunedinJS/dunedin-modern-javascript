@@ -100,7 +100,7 @@ if (a > 0) {
     console.log(a, b, c); // logs 1, 2, 3
 }
 
-console.log(a, b, c); // "ReferenceError: b is not defined
+console.log(a, b, c); // throws a ReferenceError
 ```
 
 Constant `b` and variable `c` are declared in the block scope and therefore not accessible from the outer scope.
@@ -124,7 +124,7 @@ if (a > 0) {
   })();
 }
 
-console.log(a, b); // "ReferenceError: b is not defined
+console.log(a, b); // throws a ReferenceError
 ```
 
 In modern JavaScript it is possible take advantage of block scope with `let` or `const` references instead of using an IIFE.
