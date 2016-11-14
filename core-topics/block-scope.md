@@ -3,12 +3,13 @@
 Unlike varibles declared with `var` which are function-scoped, those declared with `let` or `const` are block-scoped.
 Block scope is one of the most important features introduced in modern JavaScript.
 
-_If you're not familiar with `let` and `const` see [this topic](./let-and-const) first._
+_If you're not familiar with `let` and `const` see [this topic](./let-and-const.md) first._
 
 ## What is a block?
 
-A block is a set of curly braces `{}` which can wrap statements. This includes `if...else`, `for`, and `switch` among others.
-Plain blocks can also be used although not they're not a common occurrence.
+A block is a set of curly braces `{}` wrapped around a set of statements.
+This includes `if...else`, `for`, and `switch` among others.
+Plain blocks can also be used although not they're not a very common occurrence.
 
 ```javascript
 if (1 < 2) {
@@ -46,14 +47,16 @@ This appears unusual to many because conventional wisdom from other languages
 would make us think that variable `b` is not accessible outside the `if` block.
 But this works because old JavaScript only has function scope but not block scope.
 
-The above code is equivalent to this:
+The above code is equivalent to below.
+Below is how the interpreter understands it.
+It's also how many styleguides dictate that variables should be declared for clarity.
 ```javascript
 var a = 1;
-var b; // b is 'hoisted'
+var b; // the declaration for b is 'hoisted' out of the block and into the scope
 console.log(a, b); // logs 1, undefined
 
 if (a > 0) {
-  b = 2;
+  b = 2; // the assignment for b remains in the block
 }
 
 console.log(a, b); // logs 1, 2
@@ -62,12 +65,10 @@ console.log(a, b); // logs 1, 2
 The only way to introduce new scopes in old JavaScript was to use functions.
 ```javascript
 var a = 1;
-var b;
-console.log(a, b); // logs 1, undefined
 
 function getN() {
   // function scope
-  var b; // a different variable to b in the top-level scope
+  var b;
 
   if (a > 0) {
     b = 2;
@@ -78,10 +79,8 @@ function getN() {
 
 getN();
 
-console.log(a, b); // logs 1, undefined
+console.log(a, b); // throws a ReferenceError because b is not declared in this scope
 ```
-As you can see, variable `b` in the top scope is a completely different variable to `b` in the function.
-It's not good practice to shadow variable names like this but it demonstrates the point well.
 
 All existing behaviour remains in modern JavaScript for variables declared with `var`.
 
@@ -100,7 +99,7 @@ if (a > 0) {
     console.log(a, b, c); // logs 1, 2, 3
 }
 
-console.log(a, b, c); // throws a ReferenceError
+console.log(a, b, c); // throws a ReferenceError because b and c are not declared in this scope
 ```
 
 Constant `b` and variable `c` are declared in the block scope and therefore not accessible from the outer scope.
@@ -120,11 +119,11 @@ if (a > 0) {
   (function() {
     // function scope
     var b = 2;
-    console.log(a, b); // logs 1, 2, 3
+    console.log(a, b); // logs 1, 2
   })();
 }
 
-console.log(a, b); // throws a ReferenceError
+console.log(a, b); // throws a ReferenceError because b is not declared in this scope
 ```
 
 In modern JavaScript it is possible take advantage of block scope with `let` or `const` references instead of using an IIFE.
