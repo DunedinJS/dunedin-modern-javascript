@@ -44,6 +44,7 @@ __[Workshop 2](workshops/2/overview.md):__ gain a practical taste of modern Java
 
 * Reactive programming with [RxJS](https://github.com/Reactive-Extensions/RxJS)
 * [CSS modules](https://github.com/css-modules/css-modules) in React
+* [GraphQL](http://graphql.org/)
 * Webpack Hot Module Reloading
 * [React Native](https://facebook.github.io/react-native/) -- learn once, write everywhere for web, iOS, and Android
 * Future module loading -- [JSPM](http://jspm.io/), [SystemJS](https://github.com/systemjs/systemjs), HTTP/2 (maybe also Webpack 2)
