@@ -170,10 +170,6 @@ let thing = { a: 1, b: 2 };
 { ...thing, c: 3 }; // produces a new object { a: 1, b: 2, c: 3 }
 ```
 
-## Next
-
-__[Enhanced object literals](enhanced-object-literals.md)__
-
 ## Resources
 
 * MDN - [Rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters)

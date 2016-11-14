@@ -41,10 +41,10 @@ const thing2 = { x, y };
 
 ## Computed property keys
 
-Computed keys/names in object literals make it simple to assign dynamic keys for properties and methods.  
+Computed keys/names in object literals make it simple to assign dynamic keys for properties and methods.
 
-An expression can be put inside brackets `['na' + 'me']` and its value is used as the key.  
-This syntax is used because it mirrors the bracket notation used to access properties `thing['name']`. 
+An expression can be put inside brackets `['na' + 'me']` and its value is used as the key.
+This syntax is used because it mirrors the bracket notation used to access properties `thing['name']`.
 
 ```javascript
 const suffix = 'Mate';
@@ -68,12 +68,6 @@ The only way to use computed keys was to set properties on an existing object.
 var thing = {}; // object literal
 thing['some' + 'thing'] = 1; // a computed property key -- thing is now { something: 1 }
 ```
-
-## Next
-
-This is the end of __[Workshop 1](../1/overview.md)__
-
-Continue to __[Workshop 2](../2/overview.md)__
 
 ## Resources
 

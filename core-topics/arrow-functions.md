@@ -132,10 +132,6 @@ console.log(arrowFn.call({}) === thing);
 console.log(arrowFn.bind({})() === thing);
 ```
 
-## Next
-
-__[Template literals](template-literals.md)__
-
 ## Resources
 
 * Dr. Axel Rauschmayer, Exploring ES6 - [13 - Arrow functions](http://exploringjs.com/es6/ch_arrow-functions.html)

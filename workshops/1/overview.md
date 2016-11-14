@@ -28,13 +28,14 @@ All features covered in this workshop are also supported by Node.js as of versio
 
 ## Content
 
-1. [`let`, `const`, and block scope](let-and-const.md)
-1. [Arrow functions and their binding](arrow-functions.md)
-1. [Template literals](template-literals.md)
-1. [Default parameters](default-parameters.md)
-1. [Destructuring assignment](destructuring-assignment.md)
-1. [Rest and spread](rest-and-spread.md)
-1. [Enhanced object literals](enhanced-object-literals.md)
+1. [`let` and `const`](../../core-topics/let-and-const.md)
+1. [Block scope](../../core-topics/block-scope.md)
+1. [Arrow functions and their binding](../../core-topics/arrow-functions.md)
+1. [Template literals](../../core-topics/template-literals.md)
+1. [Default parameters](../../core-topics/default-parameters.md)
+1. [Destructuring assignment](../../core-topics/destructuring-assignment.md)
+1. [Rest and spread](../../core-topics/rest-and-spread.md)
+1. [Enhanced object literals](../../core-topics/enhanced-object-literals.md)
 
 ## Next
 
@@ -47,5 +48,5 @@ __[Workshop 2](../2/overview.md):__ gain a practical taste of modern JavaScript 
   * [Speaking JavaScript](http://speakingjs.com/) covers old JavaScript (up to ES5). A great resource for those with exposure to other lanuages but new to JavaScript.
   * [Exploring ES6](http://exploringjs.com/es6/) covers modern language features introduced by ES6 and provides many practical comparisons to old/existing patterns.
   * [Exploring ES2016 and ES2017](https://leanpub.com/exploring-es2016-es2017/read) covers modern language features introduced in ES2016 (ES7) and those drafted for ES2017. This is a "living" book which will become more complete as ES2017 is standardised.
-* Nicolás Bevacqua who publishes the excellent [Pony Foo](https://ponyfoo.com/][https://ponyfoo.com/books/practical-es6) blog is publishing a freely available [Modular JavaScript](https://mjavascript.com/) book series. [Practical ES6, chapter 3: ES6 Essentials](https://ponyfoo.com/books/practical-es6/chapters/3#ecmascript6-essentials) provides clear explanations and examples of ES6 features. 
+* Nicolás Bevacqua who publishes the excellent [Pony Foo](https://ponyfoo.com/][https://ponyfoo.com/books/practical-es6) blog is publishing a freely available [Modular JavaScript](https://mjavascript.com/) book series. [Practical ES6, chapter 3: ES6 Essentials](https://ponyfoo.com/books/practical-es6/chapters/3#ecmascript6-essentials) provides clear explanations and examples of ES6 features.
 * Douglas Crockford's [JavaScript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do) covers only old JavaScript (up to ES5) but it is still a very valuable resource because it points out which parts of the language to use and which to avoid. Best for those with some existing experience but considered by many as the best JavaScript book ever published.
