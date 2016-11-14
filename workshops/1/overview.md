@@ -28,14 +28,14 @@ All features covered in this workshop are also supported by Node.js as of versio
 
 ## Content
 
-1. [`let` and `const`](../../core-topics/let-and-const.md)
-1. [Block scope](../../core-topics/block-scope.md)
-1. [Arrow functions and their binding](../../core-topics/arrow-functions.md)
-1. [Template literals](../../core-topics/template-literals.md)
-1. [Default parameters](../../core-topics/default-parameters.md)
-1. [Destructuring assignment](../../core-topics/destructuring-assignment.md)
-1. [Rest and spread](../../core-topics/rest-and-spread.md)
-1. [Enhanced object literals](../../core-topics/enhanced-object-literals.md)
+1. [`let` and `const`](../../topics/core/let-and-const.md)
+1. [Block scope](../../topics/core/block-scope.md)
+1. [Arrow functions and their binding](../../topics/core/arrow-functions.md)
+1. [Template literals](../../topics/core/template-literals.md)
+1. [Default parameters](../../topics/core/default-parameters.md)
+1. [Destructuring assignment](../../topics/core/destructuring-assignment.md)
+1. [Rest and spread](../../topics/core/rest-and-spread.md)
+1. [Enhanced object literals](../../topics/core/enhanced-object-literals.md)
 
 ## Next
 
