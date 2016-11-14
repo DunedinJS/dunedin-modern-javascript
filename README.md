@@ -15,20 +15,21 @@ __By modern JavaScript we mean:__
 
 ## Workshops
 
-__[Workshop 1](workshops/1/overview.md):__ back to basics to cover some existing JS idioms and how modern language features can improve them. An introduction to new syntax and basic language features.
+__[Workshop 1](workshops/1/overview.md):__ back to basics to cover some existing JS idioms and how modern language features can improve them. An introduction to some of the most important new syntax and language features.
 
 __[Workshop 2](workshops/2/overview.md):__ gain a practical taste of modern JavaScript by starting with a small starter project and building a simple application with React. Here you can use and some of the modern features learnt in Workshop 1 and will also be introduced to Modules and Classes.
 
-### Other topics which are big enough for entire workshops -- suggested in order:
+### Core topics which would be good to cover as mini-workshops:
 
+1. Classes
 1. New Array and Object methods, Iterators, Generators, Symbols
 1. Promises and the Fetch API
 1. Modules and package management -- ES6 modules, CommonJS modules, and using [NPM](https://docs.npmjs.com/)
-1. [Webpack](https://webpack.github.io/) basics -- dev server, module bundling, and using loaders
-1. Unit testing with [Jest](https://facebook.github.io/jest/)
 1. New data structures -- Map, Set, WeakMap, WeakSet
 
-### Also some niche topics which are still entry-level:
+### Specialised entry-level topics:
+* [Webpack](https://webpack.github.io/) basics -- dev server, module bundling, and using loaders
+* Unit testing with [Jest](https://facebook.github.io/jest/)
 * Type annotations with [Flow](https://flowtype.org/)
 * [ESLint](http://eslint.org/) and the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 * A glimpse at `async` and `await`
@@ -40,7 +41,7 @@ __[Workshop 2](workshops/2/overview.md):__ gain a practical taste of modern Java
 * [Redux](http://redux.js.org/) and immutable data structures -- how to use them for application state -- standalone then with React
 * [TypeScript](https://www.typescriptlang.org/)
 
-### And some topics which may be more niche or only suitable for those with extensive JS knowledge:
+### Advanced topics:
 
 * Reactive programming with [RxJS](https://github.com/Reactive-Extensions/RxJS)
 * [CSS modules](https://github.com/css-modules/css-modules) in React
