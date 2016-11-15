@@ -1,6 +1,6 @@
 # Modules
 
-_This only covers ES6 modules. Also see [CommonJS modules](../common/commonjs-modules)._
+_This only covers ES6 modules. Also see [CommonJS modules](../common/commonjs-modules.md)._
 
 ES6 introduces a module syntax much like that found in other programming languages
 such as Python.
