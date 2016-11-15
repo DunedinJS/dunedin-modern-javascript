@@ -40,12 +40,12 @@ A module's code is executed the first time it is imported.
 This allows us to import a module without using any of its data.
 
 ```javascript
-// whatever.js
+// ==== whatever.js ====
 console.log('whatever');
 ```
 
 ```javascript
-// main.js
+// ==== main.js ====
 import './whatever'; // logs 'whatever' when this file is loaded
 ```
 
@@ -55,7 +55,7 @@ Each module can export multiple values by using named exports.
 The names are taken from variable or function names.
 
 ```javascript
-// a.js
+// ==== a.js ====
 const text = 'Dunedin'
 
 // export the string with the name text
@@ -71,7 +71,7 @@ Named exports can be imported into other modules by name.
 This looks similar to [object destructuring](./destructuring-assignment.md) but it's not the same.
 
 ```javascript
-// b.js
+// ==== b.js ====
 import { text, hello } from './a';
 
 console.log(text); // logs 'Dunedin'
@@ -81,7 +81,7 @@ console.log(hello()); // logs 'Hello, Dunedin!'
 It is also possible to alias named exports with the `as` keyword when importing them.
 
 ```javascript
-// b.js
+// ==== b.js ====
 import { text, hello as helloA } from './a';
 
 console.log(text); // logs 'Dunedin'
@@ -93,7 +93,7 @@ console.log(helloA()); // logs 'Hello, Dunedin!'
 To import all named exports as object properties with the `*` sign.
 
 ```javascript
-// b.js
+// ==== b.js ====
 import * as a from './a';
 
 console.log(a.text); // logs 'Dunedin'
@@ -105,7 +105,7 @@ console.log(a.hello()); // logs 'Hello, Dunedin!'
 Modules can also define a default export by using the `default` keyword.
 
 ```javascript
-// c.js
+// ==== c.js ====
 export const hello = 'Bonjour';
 
 export default class {
@@ -121,7 +121,7 @@ export default class {
 Importing the default export is even more simple.
 
 ```javascript
-// d.js
+// ==== d.js ====
 import A from './a';
 
 const thing = new A('Dunedin');
@@ -132,7 +132,7 @@ console.log(thing.hello()); // logs 'Bonjour, Dunedin!'
 We can also combine the default and named exports. The default always goes first.
 
 ```javascript
-// d.js
+// ==== d.js ====
 import A, { hello } from './a';
 
 const thing = new A('Dunedin');
