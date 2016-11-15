@@ -27,7 +27,7 @@ Suggestions of other topics are most welcome.
 __[Workshop 1](workshops/1/overview.md)__
 Back to basics to cover some existing JS idioms and how modern language features can improve them. An introduction to some of the most important new syntax and language features.
 
-__[Workshop 2 &mdash; work in progress](workshops/2/overview.md)__
+__[Workshop 2 (work in progress)](workshops/2/overview.md)__
 Gain a practical taste of modern JavaScript by starting with a small starter project and building a simple application with React. Here you can use and some of the modern features learnt in Workshop 1 and will also be introduced to Modules and Classes.
 
 __Workshop 3 &mdash; coming soon__
@@ -45,7 +45,7 @@ __Core language features__
 * [Rest and spread](../../topics/core/rest-and-spread.md)
 * [Enhanced object literals](../../topics/core/enhanced-object-literals.md)
 * [Classes](./topics/core/classes.md)
-* Modules (ES6)
+* [Modules (ES6)](./topics/core/modules.md)
 * New Array and Object methods
 * New Number and Math properties and methods
 * Symbols
@@ -56,10 +56,10 @@ __Core language features__
 * Map and WeakMap
 * Set and WeakSet
 
-__Freqently used standards and tools__
+__Frequently used standards and tools__
 * Chrome Devtools &mdash; Console
 * Getting started with Node.js and NPM
-* CommonJS modules
+* [CommonJS modules (work in progress)](./topics/common/commonjs-modules.md)
 * NPM &mdash; Package management
 * NPM &mdash; Task management
 * Chrome Devtools &mdash; Debugging JavaScript
