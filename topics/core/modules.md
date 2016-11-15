@@ -1,9 +1,9 @@
 # Modules
 
-_This only covers ES6 modules. Also see [CommonJS modules](../common/commonjs-modules.md)._
-
 ES6 introduces a module syntax much like that found in other programming languages
 such as Python.
+
+_This only covers ES6 modules. Also see [CommonJS modules](../common/commonjs-modules.md)._
 
 ## Background
 
@@ -15,8 +15,7 @@ However, those solutions can be fragile for large codebases and various solution
 emerged which define module formats and provide tooling to package numerous source
 scripts into a single file or load modules on-demand in web browsers.
 
-The most notable module formats are [CommonJS](../common/commonjs-modules) and
-Asynchronous Module Definition (AMD).
+The most notable module formats are [CommonJS](../common/commonjs-modules) which is used by Node.js and the very ugly Asynchronous Module Definition (AMD).
 
 ## Why static modules?
 
