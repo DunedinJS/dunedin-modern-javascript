@@ -24,26 +24,26 @@ Suggestions of other topics are most welcome.
 
 ## Workshops
 
-__[Workshop 1](workshops/1/overview.md)__  
+__[Workshop 1](workshops/1/overview.md)__
 Back to basics to cover some existing JS idioms and how modern language features can improve them. An introduction to some of the most important new syntax and language features.
 
-__[Workshop 2 (work in progress)](workshops/2/overview.md)__  
+__[Workshop 2 (work in progress)](workshops/2/overview.md)__
 Gain a practical taste of modern JavaScript by starting with a small starter project and building a simple application with React. Here you can use and some of the modern features learnt in Workshop 1 and will also be introduced to Modules and Classes.
 
-__Workshop 3 &mdash; coming soon__  
+__Workshop 3 &mdash; coming soon__
 Extend our starter project from Workshop 2 by adding data requests. You will be also introduced to Promises and the Fetch API.
 
 ### Small topics for mini-workshops:
 
 __Core language features__
-* [`let` and `const`](../../topics/core/let-and-const.md)
-* [Block scope](../../topics/core/block-scope.md)
-* [Arrow functions and their binding](../../topics/core/arrow-functions.md)
-* [Template literals](../../topics/core/template-literals.md)
-* [Default parameters](../../topics/core/default-parameters.md)
-* [Destructuring assignment](../../topics/core/destructuring-assignment.md)
-* [Rest and spread](../../topics/core/rest-and-spread.md)
-* [Enhanced object literals](../../topics/core/enhanced-object-literals.md)
+* [`let` and `const`](./topics/core/let-and-const.md)
+* [Block scope](./topics/core/block-scope.md)
+* [Arrow functions and their binding](./topics/core/arrow-functions.md)
+* [Template literals](./topics/core/template-literals.md)
+* [Default parameters](./topics/core/default-parameters.md)
+* [Destructuring assignment](./topics/core/destructuring-assignment.md)
+* [Rest and spread](./topics/core/rest-and-spread.md)
+* [Enhanced object literals](./topics/core/enhanced-object-literals.md)
 * [Classes](./topics/core/classes.md)
 * [Modules (ES6)](./topics/core/modules.md)
 * New Array and Object methods
