@@ -57,7 +57,7 @@ __Core language features__
 * Set and WeakSet
 
 __Frequently used standards and tools__
-* [Strict Mode](./topics/common/strict-mode.md)
+* [Strict Mode (work in progress)](./topics/common/strict-mode.md)
 * Chrome Devtools &mdash; Console
 * Getting started with Node.js and NPM
 * [CommonJS modules (work in progress)](./topics/common/commonjs-modules.md)
