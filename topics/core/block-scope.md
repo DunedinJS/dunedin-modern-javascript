@@ -160,7 +160,7 @@ console.log(x); // logs 2
 According to ES6 specification, function declarations are block scoped.
 But this only applies in web browsers when using strict mode.
 
-[Strict Mode](./strict-mode.md) enforces a strict following of the specification.
+[Strict Mode](../common/strict-mode.md) enforces a strict following of the specification.
 
 ```javascript
 'use strict';
