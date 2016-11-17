@@ -63,7 +63,8 @@ __Frequently used standards and tools__
 * [CommonJS modules (work in progress)](./topics/common/commonjs-modules.md)
 * NPM &mdash; Package management
 * NPM &mdash; Task management
-* Chrome Devtools &mdash; Debugging JavaScript
+* Chrome Devtools &mdash; Debugging client-side JavaScript
+* Chrome Devtools &mdash; Debugging Node.js JavaScript
 * ESLint and the Airbnb JavaScript Style Guide
 
 ### Specialised entry-level topics:
