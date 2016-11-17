@@ -155,11 +155,58 @@ let x;
 console.log(x); // logs 2
 ```
 
+## How about function declarations?
+
+According to ES6 specification, function declarations are block scoped.
+But this only applies in web browsers when using strict mode.
+
+[Strict Mode](./strict-mode.md) enforces a strict following of the specification.
+
+```javascript
+'use strict';
+
+{
+  function hi() {
+    return 'salut';
+  }
+  console.log(hi()); // logs 'salut'
+}
+
+console.log(hi()); // throws ReferenceError
+```
+
+In strict mode the `hi()` function remains in the block scope as it should.
+
+__*To cut a long and complicated story short, [Strict Mode](./strict-mode.md) should always be used.*__
+
+Prior to ES6 it was considered a bad practice to declare functions in blocks (as opposed to assigning functions to variables).
+
+This is a strange issue because, according to ECMAScript specifications prior to ES6,
+function declarations are only allowed in the top level of function or global scope &mdash; __not in blocks__;
+
+Unfortunately browsers ignored the specification so in practice they allow function declarations everywhere
+when not using strict mode.
+For legacy support reasons they're stuck with it now!
+
+```javascript
+{
+  function hi() {
+    return 'salut';
+  }
+  console.log(hi()); // logs 'salut'
+}
+
+console.log(hi()); // logs 'salut' even in browsers with ES6 support -- but it shouldn't!
+```
+_To run this example in JS Bin make sure to switch from 'ES6/Babel' to 'JavaScript' because
+the Babel compiler automatically automatically sets strict mode for its output._
+
 ## Resources
 
-* Dr. Axel Rauschmayer, Exploring ES6 - [9 - Variables and Scoping](http://exploringjs.com/es6/ch_variables.html)
-* MDN - [Varible Scope and Hoisting](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variable_scope)
-* MDN - [Block Statements](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/block)
-* MDN - [Closures](https://developer.mozilla.org/en/docs/Web/JavaScript/Closures)
-* Dr. Axel Rauschmayer, Exploring ES6 - [4.3 - From IIFEs to blocks](http://exploringjs.com/es6/ch_core-features.html#_from-iifes-to-blocks)
-* Dr. Axel Rauschmayer, Exploring ES6 - [12.3.5 - Avoid IIFEs in ES6](http://exploringjs.com/es6/ch_callables.html#sec_iifes-in-es6)
+* Dr. Axel Rauschmayer, Exploring ES6 &mdash; [9: Variables and Scoping](http://exploringjs.com/es6/ch_variables.html)
+* PonyFoo &mdash; [ES6 Let, Const and the “Temporal Dead Zone” (TDZ) in Depth](https://ponyfoo.com/articles/es6-let-const-and-temporal-dead-zone-in-depth)
+* MDN &mdash; [Varible Scope and Hoisting](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Variable_scope)
+* MDN &mdash; [Block Statements](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/block)
+* MDN &mdash; [Closures](https://developer.mozilla.org/en/docs/Web/JavaScript/Closures)
+* Dr. Axel Rauschmayer, Exploring ES6 &mdash; [4.3: From IIFEs to blocks](http://exploringjs.com/es6/ch_core-features.html#_from-iifes-to-blocks)
+* Dr. Axel Rauschmayer, Exploring ES6 &mdash; [12.3.5: Avoid IIFEs in ES6](http://exploringjs.com/es6/ch_callables.html#sec_iifes-in-es6)
