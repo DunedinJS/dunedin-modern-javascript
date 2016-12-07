@@ -38,6 +38,7 @@ It is recommended to use [Nodist](https://github.com/marcelklehr/nodist) to inst
 Use [Windows-Build-Tools](https://github.com/felixrieseberg/windows-build-tools).  
 This sets up the correct Python and C++ build tools.
 
+1. Open Git Bash (or PowerShell if you must) as administrator -- right click the icon and 'Run as administrator'
 1. Run `npm i -g windows-build-tools`
 1. Verify that the environment is setup correctly by attempting `npm i -g bson`
 
