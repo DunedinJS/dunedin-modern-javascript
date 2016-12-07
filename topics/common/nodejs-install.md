@@ -6,7 +6,7 @@ It is recommended to use [NVM (Node.js Version Manager)](https://github.com/crea
 1. Install the latest Node.js Long-Term-Support release `nvm install --lts`
 1. Verify the installed Node.js version `node -v`
 
-## For building native C++ extensions -- recommended
+### For building native C++ extensions -- recommended
 
 Linux/Unix:
 * `python` v2.7 (v3 is __*not*__ supported)
@@ -31,7 +31,7 @@ It is recommended to use [Nodist](https://github.com/marcelklehr/nodist) to inst
 1. Install the latest Node.js Long-Term-Support release (version 6.9 as of December 2016) `nodist + 6.x`
 1. Verify the installed Node.js version `node -v`
 
-## For building native C++ extensions -- recommended
+### For building native C++ extensions -- recommended
 
 Use [Windows-Build-Tools](https://github.com/felixrieseberg/windows-build-tools).  
 This sets up the correct Python and C++ build tools.
