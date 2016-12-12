@@ -30,13 +30,11 @@ Back to basics to cover some existing JS idioms and how modern language features
 
 #### [Workshop 2 (work in progress)](workshops/2/overview.md)
 
-1. Take a small old-style JS app, make the source code modular, and introduce modern JS features in a pragmatic way
+1. [Migrating an existing app to modern JS](https://github.com/DunedinJS/migrating-to-modern-js)
 
-1. Get up and running with a React starter project  
-_We'll continue to use this in future workshops too_
+1. [Up and running with a React](workshops/2/2/overview.md)
 
-1. An introduction to testing with Jest  
-http://facebook.github.io/jest/
+1. [Testing with Jest](workshops/2/3/overview.md)
 
 #### Workshop 3 &mdash; coming soon
 

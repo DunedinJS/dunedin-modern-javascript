@@ -17,7 +17,7 @@ Node.js version 6.9. Other versions may work but 6 is recommended because it has
 
 [Follow these instructions to install Node.js](../../topics/common/nodejs-install.md)
 
-## Part 1: [Migrating to modern JS](https://github.com/DunedinJS/migrating-to-modern-js)
+## Part 1: [Migrating an existing app to modern JS](https://github.com/DunedinJS/migrating-to-modern-js)
 
 Take a small old-style JS app, make the source code modular, and introduce modern JS features in a pragmatic way.
 
@@ -27,6 +27,6 @@ Take a small old-style JS app, make the source code modular, and introduce moder
 Get up and running with a React starter project based on [Create React App](https://github.com/facebookincubator/create-react-app).  
 _**We will continue to use this in future workshops too**_
 
-## Part 3: [Testing with Jest](.3/overview.md)
+## Part 3: [Testing with Jest](./3/overview.md)
 
 An introduction to unit testing with the excellent [Jest](http://facebook.github.io/jest/) framework.
