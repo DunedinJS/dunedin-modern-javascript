@@ -24,13 +24,22 @@ Suggestions of other topics are most welcome.
 
 ## Workshops
 
-__[Workshop 1](workshops/1/overview.md)__
+#### [Workshop 1](workshops/1/overview.md)
+
 Back to basics to cover some existing JS idioms and how modern language features can improve them. An introduction to some of the most important new syntax and language features.
 
-__[Workshop 2 (work in progress)](workshops/2/overview.md)__
-Gain a practical taste of modern JavaScript by starting with a small starter project and building a simple application with React. Here you can use and some of the modern features learnt in Workshop 1 and will also be introduced to Modules and Classes.
+#### [Workshop 2 (work in progress)](workshops/2/overview.md)
 
-__Workshop 3 &mdash; coming soon__
+1. Take a small old-style JS app, make the source code modular, and introduce modern JS features in a pragmatic way
+
+1. Get up and running with a React starter project  
+_We'll continue to use this in future workshops too_
+
+1. An introduction to testing with Jest  
+http://facebook.github.io/jest/
+
+#### Workshop 3 &mdash; coming soon
+
 Extend our starter project from Workshop 2 by adding data requests. You will be also introduced to Promises and the Fetch API.
 
 ### Small topics for mini-workshops:

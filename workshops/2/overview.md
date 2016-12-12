@@ -1,4 +1,4 @@
-# Workshop 2: a taste of Modern JavaScript
+# Workshop 2
 
 ## Target audience
 
@@ -8,40 +8,25 @@ Anyone with experience in old-fashioned JavaScript (ES3/ES5) or familiar with an
 
 It's recommended you take a look at [Workshop 1](../1/overview.md) to be familiar with some of the modern syntax used in this workshop.
 
-## Background
-
-JavaScript web application development has changed dramatically since ~2010.
-
-Late 2010 saw the release of Backbone.js. It became the first widely used JavaScript framework to structure applications applications with clearly separated data, logic, and presentation layers. It was a huge success but still very much a layer atop the jQuery status-quo.
-
-There has been steady progress since then to add modern language features and develop libraries, frameworks, methodologies, and tooling which improve application development from both the developer's and the end-user's perspective.
-
 ## Requirements
 
 A good text editor with JavaScript syntax support.
 [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com), and [Sublime Text](https://www.sublimetext.com/) are excellent options.
 
-Node.js version 6. Other versions may work but 6 is recommended because it has official long-term-support until April 2019.
+Node.js version 6.9. Other versions may work but 6 is recommended because it has official long-term-support until April 2019.
 
-[NVM](https://github.com/creationix/nvm) is recommended to install and manage Node.js versions.
-This allows you to install multiple versions of Node.js on the same machine and easily switch between them for different projects.
+[Follow these instructions to install Node.js](../../topics/common/nodejs-install.md)
 
-## Aim
+## Part 1: [Migrating to modern JS](https://github.com/DunedinJS/migrating-to-modern-js)
 
-Gain a taste of working with a modern JavaScript codebase.
+Take a small old-style JS app, make the source code modular, and introduce modern JS features in a pragmatic way.
 
-We begin with the [Create React App](https://github.com/facebookincubator/create-react-app) an amazing little starter project which provides all the necessary tooling and configuration to start building a application with [React](https://facebook.github.io/react/).
 
-This is by no means the only option but it allows us to take a dive into a relatively standard codebase and apply some of the modern JavaScript features seen in Workshop 1.
+## Part 2: [Up and running with a React](./2/overview.md)
 
-We will also briefly cover:
+Get up and running with a React starter project based on [Create React App](https://github.com/facebookincubator/create-react-app).  
+_**We will continue to use this in future workshops too**_
 
-* Modules and Classes which are new ES6 features that weren't covered in Workshop 1
-* React and its JSX syntax
-* Testing
+## Part 3: [Testing with Jest](.3/overview.md)
 
-## Content
-
-1. [The starter project](./starter-project.md)
-1. [Exploring the starter project](./exploring.md)
-1. [Exploring the source code](./exploring-code.md)
+An introduction to unit testing with the excellent [Jest](http://facebook.github.io/jest/) framework.
