@@ -28,17 +28,13 @@ Suggestions of other topics are most welcome.
 
 Back to basics to cover some existing JS idioms and how modern language features can improve them. An introduction to some of the most important new syntax and language features.
 
-#### [Workshop 2 (work in progress)](workshops/2/overview.md)
+#### [Workshop 2](workshops/2/overview.md)
 
-1. [Migrating an existing app to modern JS](https://github.com/DunedinJS/migrating-to-modern-js)
+Migrating an existing app to modern JS
 
-1. [Up and running with a React](workshops/2/2/overview.md)
+#### [Workshop 3](workshops/3/overview.md)
 
-1. [Testing with Jest](workshops/2/3/overview.md)
-
-#### Workshop 3 &mdash; coming soon
-
-Extend our starter project from Workshop 2 by adding data requests. You will be also introduced to Promises and the Fetch API.
+Continue directly from where workshop 2 ends and introduce unit testing with Jest, code linting with ESLint, and convert the existing project to modern syntax.
 
 ### Small topics for mini-workshops:
 
