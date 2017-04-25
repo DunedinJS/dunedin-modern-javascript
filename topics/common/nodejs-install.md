@@ -2,7 +2,7 @@ __*It's best to install Git first. See https://git-scm.com/*__
 
 # Installing Node.js on Linux/Unix/macOS
 
-It is recommended to use [NVM (Node.js Version Manager)](https://github.com/creationix/nvm) to install and manage Node.js versions on Linux,Unix, and macOS.
+It is recommended to use [NVM (Node.js Version Manager)](https://github.com/creationix/nvm) to install and manage Node.js versions on Linux, Unix, and macOS.
 
 1. Follow the [NVM installation instructions](https://github.com/creationix/nvm#installation).
 1. Install the latest Node.js Long-Term-Support release `nvm install --lts`
